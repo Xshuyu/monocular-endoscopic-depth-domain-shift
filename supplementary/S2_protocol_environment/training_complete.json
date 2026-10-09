@@ -1,0 +1,13 @@
+{
+  "checkpoints": {
+    "target_only_11.pt": "6c31c4679ed8d915e2ed2de3001586601c01a19936a8bec9f7fb5c256b67bf6d",
+    "source_half_47.pt": "0dca1155a88a662236de0b375dfff1a2386ddd1dc9aad2553268d1f29712fbdd",
+    "source_half_11.pt": "3ffd2c649278043033e0e292d71a207d49516580ba052119cd11c31250c4b022",
+    "adapted_double_11.pt": "7ebdcaa566b5b7fff847c35f9354d586bf058d21280f9cde585919258a41bc55",
+    "target_only_23.pt": "ce54bfac6b1144cff50e14a9cdaed34a2be7a2c45797c2e09f49c41bd65024f0",
+    "adapted_double_23.pt": "7e6696a68188a13f10e6799bfa01b2bb4908f8020d4b7b71b2f76c0e07d96508",
+    "adapted_double_47.pt": "3ef76b55962e50d9c70600119b4c3834644e600dac94492e0f7b67db8c91ada8",
+    "target_only_47.pt": "c74c5bd0c6308d2b99d2123259bb66e7efd82e3bfd882c0da913bb8a749dedc5",
+    "source_half_23.pt": "d8a5dcb561d4af6f1bfad87a38e415f00039bc170a1abac768a3925640cee55c"
+  }
+}

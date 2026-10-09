@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-10-07T09:17:07.346021+00:00",
+  "parent_protocol_sha256": "f2b91dc3a6e79bdb1dac0a4ed20fab45466bf95cb387f0719f5a8573eb664843",
+  "purpose": "Two additions to cmig_revision: (1) target_only calibration design using 16384 target pixels only, to separate recalibration from neural adaptation; (2) strong_blur factor at sigma=5.0 model-input pixels (resize-then-blur) for a more decisive sensitivity check. No new physical data collected.",
+  "target_only_calibration": {
+    "pixels": 16384,
+    "domain": "target only (SCARED subjects 1,2,3,6)",
+    "families": [
+      "affine_ls",
+      "radial_ls"
+    ],
+    "lambda": 0,
+    "backbones": [
+      "small",
+      "pcc"
+    ],
+    "rationale": "Baseline: can the supervised-adaptation gain be matched by refitting the calibration head on target-domain frames only, without changing any model weights?"
+  },
+  "strong_blur_factor": {
+    "sigma_model_input_pixels": 5.0,
+    "model_input_resolution": [
+      224,
+      280
+    ],
+    "sigma_as_fraction_of_height": 0.022321428571428572,
+    "applied_after": "resize to model-input resolution",
+    "factors": [
+      "identity",
+      "dark",
+      "strong_blur",
+      "dark_strong_blur"
+    ],
+    "rationale": "Original sigma=1.5 produced negligible MAE changes (<0.5 mm in most seeds). sigma=5.0 provides a stronger intervention comparable to lens contamination or image compression artifacts.",
+    "models": [
+      "source_only",
+      "adapted"
+    ],
+    "seeds": [
+      11,
+      23,
+      47
+    ]
+  },
+  "scoring": "Separate extension_comparison_summary.json; combined with cmig_revision heads in combined_summary.json."
+}

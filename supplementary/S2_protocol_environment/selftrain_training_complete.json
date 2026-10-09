@@ -1,0 +1,11 @@
+{
+  "checkpoints": {
+    "self_train_47.pt": "2934238caeb518735098125f2bc8d43d8c1ef8542abf2e3662c5a86d15be8331",
+    "self_train_11.pt": "b9445d8274a36781ef24d2d8712ad446ccad0f6a296191810fd9250d0f700f87",
+    "self_train_ft_23.pt": "f711d31979ff0933d93a50d8fa101f37cb76a359e27dbc920c424bcdbd767bb5",
+    "self_train_23.pt": "7428d62ce770d0705a3e0c0ecc525e718c4ec1ebd3aa59487ffadaa486c122a8",
+    "self_train_ft_47.pt": "164a2d6a21262002a11dba95adaa814e98a85f6f0af2fe2b27352d8fd42d9528",
+    "self_train_ft_11.pt": "867f12c4cad720aa7754c6ef525a8132fc9fe82f662c57bb988738f2ecb9a821"
+  },
+  "protocol_sha256": "8d50eed50a790f6215fb88cd7977098c515f315647e0faf9b7e991966ba78fdf"
+}

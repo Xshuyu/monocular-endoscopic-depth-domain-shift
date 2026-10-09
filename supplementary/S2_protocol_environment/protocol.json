@@ -1,0 +1,1968 @@
+{
+  "created_utc": "2026-10-06T10:08:54.377863+00:00",
+  "status": "Post-hoc extension; all cohorts have previously been examined. Settings frozen before these new comparisons, not a preregistered blind confirmation.",
+  "parent_protocol_sha256": "a47baadd99e92c8a922b72df9fa06d7dcc4227e5dacb9bb3db073b15c06570ad",
+  "code_sha256": {
+    "scripts/cmig_revision_common.py": "427dc2e31c067a18c9f1c509d141b07e11bad41e11047e207056ddcd4b702d7f",
+    "scripts/run_cmig_controls.py": "2bcbb8f7b11d74d21f8f65cc5108d5575af9b3a3aa40e34fed1b4697afb1eec4",
+    "scripts/run_cmig_calibration.py": "ec72cbdc6a2ad10ec558131ab6e6f5f451fe358636ff07f0dbb594a5569fb99d",
+    "scripts/score_cmig_revision.py": "0b60a6b4f0631f6f7f7fd715770239c105535e6ebce3c9fff2c4cd89d2df7c29"
+  },
+  "training_rgb_sha256": {
+    "source_c1_ascending_t1_v1_0000": "934590826ee049b116144a21e57383b8e52395297079e99e9408305642746823",
+    "source_c1_ascending_t1_v1_0026": "2b81b4f4fb45c0fdde41e080da864f21dde3994d8b479de39ce1a7d100004d4d",
+    "source_c1_ascending_t1_v1_0051": "acc548b1b920c66dc354420395de2d9627f444dc2919d8fb76062c6f598b43ed",
+    "source_c1_ascending_t1_v1_0077": "7d7cf66a01df20109a3dcbf4c8c63acf841c824b48a2a81c8e7da99df6d8ee11",
+    "source_c1_ascending_t1_v1_0102": "c77e44b0f459e62e7bc93ff0b30ca75816ef0b38ab714aa2d9cfdf10af2991fd",
+    "source_c1_ascending_t1_v1_0128": "6ebdb0459fac3e77d49631f1b6b39ded23bdc7fac531da8ef76538397b9becd8",
+    "source_c1_ascending_t1_v1_0153": "da5141acf0b915a80feb8b33cf5a7e3ed23a2396bba822804c7c81414e2f65a5",
+    "source_c1_ascending_t1_v1_0179": "4619c6b87f5a6349e64188a49a1c7f5036c51bb0b5236fc294b41cf10a7d2196",
+    "source_c1_ascending_t1_v1_0204": "ab3e095d42bf54cd7bd6a2b6c6400b6e3e1dbb7c9e4b65844998852a5cc075f5",
+    "source_c1_ascending_t1_v1_0230": "f9bd99ae555c453aa0588cdd1608b363b0e31847e2f072bc2a1d23e96f3e4637",
+    "source_c1_ascending_t1_v1_0255": "d4e173377ca7b360ffead6f42b7d32606c7d56e553264e5919b64c41420ed4de",
+    "source_c1_ascending_t1_v1_0281": "54e4c3c91de2d6fd7f2490bef4c7039883f6fbf82b9d773cde479b95ecdde89c",
+    "source_c1_cecum_t1_v3_0000": "6fb1dc248cf7053424a91dfbb2cacaf65aa82d3e2e2f03676c6d3e06ed449dcd",
+    "source_c1_cecum_t1_v3_0060": "e2db66865caa7347d50a0bfb7460b92fbf3bbdfa318da028b4d40176ce65a348",
+    "source_c1_cecum_t1_v3_0121": "8e9aee039b73df54219b77173af8777be87033d7bb634c0bd6baddceb291507a",
+    "source_c1_cecum_t1_v3_0181": "e51dc8229a6c4d234b7bdd40fd23ea054cd0d56770c75adcf039dd294879b16d",
+    "source_c1_cecum_t1_v3_0241": "833631663f265114c4be85bbfe2133b8c666d42979ed08faf0c4855293979867",
+    "source_c1_cecum_t1_v3_0301": "f89d6377b2a69415749b77939452034dd503099dde4d6b5fa7cd0e5d269dd6e8",
+    "source_c1_cecum_t1_v3_0362": "1eb90b0ff142d2c25e97aebdd88ec84ed0cd5051ec0f7107e22eebe074a8241d",
+    "source_c1_cecum_t1_v3_0422": "3aeca4d496d58f669e0ec474d6269fd2700c5eb164c206610f7583c25e1a3fcc",
+    "source_c1_rectum_t1_v3_0000": "d15f69a7a2f73b109ba52fc00f5c64ae7c326d0abaedfdd8abc1ede268084aa5",
+    "source_c1_rectum_t1_v3_0055": "fccd8e1fef7cadb20eef75cbd71907adacbd92a99c5878c87a7fdc4a8e81d2b4",
+    "source_c1_rectum_t1_v3_0109": "97a954fdcfe1ef28c1285ee76c3eb00885a51b67d00931516675a92b1fc28ff6",
+    "source_c1_rectum_t1_v3_0164": "05bc711ac9430fb0843d55803543d6075f8fe881dcab7d08a61277f790058168",
+    "source_c1_rectum_t1_v3_0218": "49824aad64dc5217d973c076c763d017f7190d5f9f9d76790ce02153cb65c831",
+    "source_c1_rectum_t1_v3_0273": "0978f0b68f0a0fefe1e0d73496cc4d7193d05357ebd7201fbf1439bb8df3a35f",
+    "source_c1_rectum_t1_v3_0327": "a0f2fe07afc50b37ac0edbe3e608da4f6d7bdcbb66b28760d13998c5b8b82b43",
+    "source_c1_rectum_t1_v3_0382": "cfbb712849d5f7bffc78e69c6ae6caec4dada4ec72359fb538889aa76939b1d4",
+    "source_c1_sigmoid1_t1_v3_0000": "34c7a28d3601567e80338d4e17c3832a7ef3384f5c672485578180d3a22b4c14",
+    "source_c1_sigmoid1_t1_v3_0044": "d32145e393133fcf490b7694ec64dec2abc0514613d9bf481efb458dad478aa2",
+    "source_c1_sigmoid1_t1_v3_0087": "8fe371e50dd7cf99d3a1d4710df2554676a5c8c81c938f14d9ff4f37adbbea1f",
+    "source_c1_sigmoid1_t1_v3_0131": "c90a93d49d78a75416e06940d912b5f254d51b48c6c7a465caddf00794d4922a",
+    "source_c1_sigmoid1_t1_v3_0175": "505c4f1abe31ca0dba93010176bc2ae8e94cf1d9e2410f3a43fb45d84396271e",
+    "source_c1_sigmoid1_t1_v3_0219": "0686ae1ffc70bf826af731e092730083643a9911635404c4733446732af36058",
+    "source_c1_sigmoid1_t1_v3_0262": "0e608d236f8fc4ec3e9472e45212436f4b1ad3a759be0afbcb82c3ab55de0b81",
+    "source_c1_sigmoid1_t1_v3_0306": "5e19b1e806c811eb29721597a13e5be3de796d930e2476930f3e29cbe2b3d8f1",
+    "source_c1_transverse1_t1_v3_0000": "e5061740cc4b29eb242103d05ce228eb4169e940a3c58730b527b61e0bb22719",
+    "source_c1_transverse1_t1_v3_0017": "7290a1bfc4220302e8a799e3354725b4b7ef7b1bffe3e6d31e341f1d6e411e5b",
+    "source_c1_transverse1_t1_v3_0033": "f3d2ba2b3cb0eca614346c042f871d1c696947d6dc5f8c77d32bea0b618d640f",
+    "source_c1_transverse1_t1_v3_0050": "9e239adc33d343914a7e1dd18370d4987d0d7803b1563f4fe3909b682583c1df",
+    "source_c1_transverse1_t1_v3_0066": "c92806469c52d0da15bff4ad70456974a560eb5201358c4546e795efb30ab13a",
+    "source_c1_transverse1_t1_v3_0083": "471410796a4d0e938f003e1ae9bdf5e025ff4cb1aa00a2f5eaaeb4001909e7df",
+    "source_c1_transverse1_t1_v3_0099": "72d3e4fa3796350da36fa1948f30451bca5ac076addca5bbf7e7f9517831caba",
+    "source_c1_transverse1_t1_v3_0116": "fd41daf2ed693ab06b9ff03ff9b546d108cb02b0443d452b12b7b76aa37218a8",
+    "source_c1_transverse2_t1_v3_0000": "97f0427b808675e99eae6991733b7bc7b16faa1e90f2e3a5b7ffc0e2b842656e",
+    "source_c1_transverse2_t1_v3_0074": "49cc260b4d8f220ec8c1b9991bfca245a85acb3bfae5fc965a9cee2af1d12581",
+    "source_c1_transverse2_t1_v3_0147": "3a387e898faf62457e21d7160b658e59d0a362f07c990df33241f1380ad9a2aa",
+    "source_c1_transverse2_t1_v3_0221": "b64f29b6a04f3eb51ed47426413b51d1d376562e14957a16a933cc6bbde41e0e",
+    "source_c1_transverse2_t1_v3_0295": "7fc8022ebe8486d91071f0aec8425e693bb1a4418a548ae80eb35664889612fe",
+    "source_c1_transverse2_t1_v3_0369": "da260ee62307f0dc02d4dcb80c86eaaf4a88de59e8fb173b1d4c284a5a04fdd1",
+    "source_c1_transverse2_t1_v3_0442": "46d3ed84be95a7b9261e2a2437ac381daa7a02a100ec2038d2f771349cf1faf6",
+    "source_c1_transverse2_t1_v3_0516": "b8a7a5c03cbb49ac235030c6803732d429e0d3b60a7f732f51e2eaa08417edb5",
+    "target_1_keyframe_1": "cc7de7a8b29f657a77008782ea02e861a6b407d0f3a75ec6ac79e8a3ce4bc9fd",
+    "target_1_keyframe_2": "e07f036db339b65cf7fce2065f0ce93cfe19388ad1ffa06fdebeada2a30b1f11",
+    "target_1_keyframe_3": "3348fedcc0f6a725d8084ed017f8ef9385cca236d491700c1bb31183c44e797e",
+    "target_1_keyframe_4": "5eaf720fce20779f849cd6ec9300b1b5ff7f307ff804ae1f59e67d37d32924fb",
+    "target_1_keyframe_5": "d2d70484bdf9c2d14a5b9b3a295e9d293594eb5028d0477841317d896fd5c92d",
+    "target_2_keyframe_1": "7b3042e49abfae4521fc48e0980203c555d88526661d9178462141a34f8ae7b9",
+    "target_2_keyframe_2": "d1cffdc2b32b192325b620ad2ce267e21e9f28f24611d4d6ac3dbd73c6b6df85",
+    "target_2_keyframe_3": "a665464d0fd5a7a472d3630092edc565752f4851f395db7a1335f00f2214abde",
+    "target_2_keyframe_4": "56034dbebbb0d8ce6d9a6126e83517a0f8e311780a79ea9c3307956ddada3487",
+    "target_2_keyframe_5": "a39e845e025281f5f2c268ce2aec0ae4d3ee2604e30c6cdf51bc7820361482ba",
+    "target_3_keyframe_1": "8b7e3204812d192ea6d0dfb3f28ac7e4e1073cb314b321f68c5f0c59fcee8666",
+    "target_3_keyframe_2": "644c2359b1a2a2991f29156e2919e4cf81590d4e7e865b46a88ef9d2783a45fb",
+    "target_3_keyframe_3": "35721f3e7f1aaf887ddad9b6e7c748a3e92168355a3518d44c06ce25f35062cc",
+    "target_3_keyframe_4": "3cc5618d6129512fb8c07ab0bc48f7c9e067db1fa880b5cbb11a4744547b8434",
+    "target_3_keyframe_5": "6b57acf54c5009654f4dc06c83a9c0a03c54adccc624eee2e51928688f490486",
+    "target_6_keyframe_1": "57e3042d8aa3208b4d404408a23364e6e103e853027212f74e1eb55a79a4af41",
+    "target_6_keyframe_2": "cdde015b2065ad701f4b1c5f6a7356b0bd0f337c256e17bf6b5c2c87dc855ed9",
+    "target_6_keyframe_3": "e09d7bd0fb92b63862ad9b1af2c523c8420c95b17954930e661c9ddfedb4dfc9",
+    "target_6_keyframe_4": "e08608acfde98fe426ace7e2ea1b4b3d2b8de07c0a03a2946ee5b5ba9ae1108f",
+    "target_6_keyframe_5": "7815ccd97f88b195322dd46563c45580bf1a15e1cefa9fdf229bf240efcda981"
+  },
+  "test_rgb_sha256": {
+    "c3vd_cecum_t2_a_0000": "237fddab017717d386ef21a3f437788fe6efe7e93d0c1fa69ad40c122c08a411",
+    "c3vd_cecum_t2_a_0034": "f18b926f933c69fd4db73be7966c035831471f0d7226769ed7739e6ad06e511a",
+    "c3vd_cecum_t2_a_0067": "0830c0900d663b963e3238be6d3b23c01543f2781290d6d1fe77629d6892fcf9",
+    "c3vd_cecum_t2_a_0101": "f8f96cd25ed4507508ef6ac8cef3788aabc8a5fc8a50d196b09e6eedb0397153",
+    "c3vd_cecum_t2_a_0134": "8239b72aa90cabed3890cd932139d8efcc836ea6aa880eba87146eef9bbe3566",
+    "c3vd_cecum_t2_a_0168": "88a48ffac63c284f80eac4cbd9694fce5948090ae7fc7c1d8b4b4d042e1019c1",
+    "c3vd_cecum_t2_a_0201": "cdc0049d6f9d55b77824cc49d0bd5cdb738cfaa35f5c09ca0cfe1be3569d78be",
+    "c3vd_cecum_t2_a_0235": "eea95536f1ca08300b8a88cb8186c083b1e4df359221ccca83b3b25bb45f0cf1",
+    "c3vd_cecum_t2_a_0268": "df5fe096bc3d1c4f4b5d7a239ea170eb81e9401eb34494f7596e28836afcd49d",
+    "c3vd_cecum_t2_a_0302": "0f0b3af42eeb04bbaca8b2ae8ed78a71d9a4255ab248b232ef2882f58f09de57",
+    "c3vd_cecum_t2_a_0335": "d4b8b7061f8c4c47e259d344084a34bc56109b72099817c3de329b8888e18a6f",
+    "c3vd_cecum_t2_a_0369": "9d6f1cc1bb7d621b200cc3ac3f023f698a209c349aed8eed97a470a1a54a0d1c",
+    "c3vd_cecum_t3_a_0000": "d39eb45fc33a4599f566287927cb42d2aed940b91f3368fce0f0b9a488fedf75",
+    "c3vd_cecum_t3_a_0066": "3c93d771955ebdf678b0faff7e300a05cc7731cfd35242304118903871743ea0",
+    "c3vd_cecum_t3_a_0133": "0ac05ab5aa52b4addcd7c475829f5f3683edb19b531fd1b739fa11ecf1dcb606",
+    "c3vd_cecum_t3_a_0199": "f1c084dfca731e46277f857592484bd2f3fa015f36055a942cdba51532f8da2f",
+    "c3vd_cecum_t3_a_0265": "ddebc18abae0d4aa1eb6dce120118ec03faef16802018073256095131d054284",
+    "c3vd_cecum_t3_a_0331": "b1a27edc1ee83dd129592a7f9cb66d2ac293a90998a69227482f3a183a122308",
+    "c3vd_cecum_t3_a_0398": "4b22a15eeac05b2227e0d604be59153e6f22722200fe6b46912b529bac56ab42",
+    "c3vd_cecum_t3_a_0464": "c07c707762473d90dfc34fd8d394f54049b62fd167ffecb828ca741629e17eef",
+    "c3vd_cecum_t3_a_0530": "9c56e8c5c17a03b1191774afa6b54db987bf1b58ccf8e23dfdab65224c18670c",
+    "c3vd_cecum_t3_a_0596": "310213c493b0000801c4ef6a3098e8a41ebd85718e420341c596d772fb783e4f",
+    "c3vd_cecum_t3_a_0663": "44defc44e02fdc6324be0c1bf9e14f5ffafb736fd6ee8e3b7130db2094e921d9",
+    "c3vd_cecum_t3_a_0729": "6b90ca777cce846f0d5ddb419d82e5cd3298da981e69b41229a8d26defc5919b",
+    "c3vd_sigmoid_t2_a_0000": "7f1f2f334259243d7db795a6ae314804745e0820ece00f397c943bef016ec230",
+    "c3vd_sigmoid_t2_a_0047": "d03892cee7edb72a2f88512bbfb3c4d525efe2c51975898f2f276307880cb1ad",
+    "c3vd_sigmoid_t2_a_0093": "718d2618829f4c9eba6f9c694e8ddf086d685881acb4d95ab4f6df576bf528d8",
+    "c3vd_sigmoid_t2_a_0140": "1dc48cdb0b779302601b2e95f73a1eac1000d15479972a8660710447d5b65c05",
+    "c3vd_sigmoid_t2_a_0187": "591dcf5279b84db3a4633819f6790732bbe3a6c5c47e6ee5fc16e25e2562f6c5",
+    "c3vd_sigmoid_t2_a_0233": "d5d7faabe5000dcf53287de3c8ec2390ad32af7a3cc0cf496a4d0e4da15183bf",
+    "c3vd_sigmoid_t2_a_0280": "45616b6cb78a42836ff48248522c8c42f47dcb13d3d5652b5070b06ea4bf9aa8",
+    "c3vd_sigmoid_t2_a_0326": "5f77e154e0cea1fa297612c2762e28b8ac472a79ba4ce1a9557e49dacba6036c",
+    "c3vd_sigmoid_t2_a_0373": "deb237038b3032ea3c6656550dcd89287435a004299b4876c1ef17b81a277818",
+    "c3vd_sigmoid_t2_a_0420": "1cb9dca174604ca6d410cf5399fd69ddbaff22bb1b0e46b2c5971a865f1beb1f",
+    "c3vd_sigmoid_t2_a_0466": "6a6cca739ee4c08b464e38d6d4757ce6713601afc15f4bb3ff96f6ed5d16a0c0",
+    "c3vd_sigmoid_t2_a_0513": "ecf3cb1f11b58bc9d0ab484d2a5a75c7ef83292ba77daaca206fb717456bf8ba",
+    "c3vd_trans_t2_a_0000": "5c3488c457d2736d07616fd70254b0a6000b854a19d27920ac2f60d1860c91ba",
+    "c3vd_trans_t2_a_0018": "e74a24cdafa2dbafd412111f094b38641b081b09dbbfb2e1fa028038af20537c",
+    "c3vd_trans_t2_a_0035": "0fffd17f46b5e1a4c5d549c7b78775f5c9f8097fccf59528cfc698e826803c69",
+    "c3vd_trans_t2_a_0053": "c7e1bf99572c697514adac7f04592c4eee5c007235391b3246ba45dc924d44d7",
+    "c3vd_trans_t2_a_0070": "afc792f8cbf145f80f74a83c13b3b4cd9f1a701b97f4201553cfb3dc25717029",
+    "c3vd_trans_t2_a_0088": "901a31c9d7f1a052613ecf73f8977703c13d498b3bb533dad9e129ee87a09872",
+    "c3vd_trans_t2_a_0105": "237d194a38bfc26c10de70b895c4473452c4d8cb16c189d15c92669598000d0a",
+    "c3vd_trans_t2_a_0123": "646427ba7ef499621879f51d3c84034a57758e6c8fdb854436bbb07d8b65d93f",
+    "c3vd_trans_t2_a_0140": "81bbe1afaf22421fb9618235d0987ccd2e8f2c812bcdf0c79dc92e5f3236dce5",
+    "c3vd_trans_t2_a_0158": "fe284d856fe79c340a4310ceabddcf0010352e7d5901fd13d95d6144218d6e4b",
+    "c3vd_trans_t2_a_0175": "55e0824e30389625804d611c26a1c7655b4b950ebe58274d6052a3fc1d5e083a",
+    "c3vd_trans_t2_a_0193": "f78bc05060df77af2c4743d6ca93c1e99add08ef42794a3ce392de6797306e03",
+    "servct_Experiment_1_001": "e0b24a9197e3a6c3586efa16ee6e8ecea1be4e293ba39f187ca9d492dace2bdb",
+    "servct_Experiment_1_002": "2e1ecbced57504e626ab441bd7cfb59ad34f284118999f1183b7d7fa4a54fd72",
+    "servct_Experiment_1_003": "7b51f73fdfae8c06d90834b23fb4e81b4658cf5296f86bd44e98238becdf8778",
+    "servct_Experiment_1_004": "6324787866d6c8762205597724d0e55094af995db8d94469aa268195ca27d5bf",
+    "servct_Experiment_1_005": "b4ebaa6c543b847eb182d8ba685605bc9e53be7e36343f476c9d9a2514213c47",
+    "servct_Experiment_1_006": "1212617c290c02b83ebb55e4fd16d687530156e26ef792215423040ef3da2352",
+    "servct_Experiment_1_007": "72417f6a7a6f390431ac3f763e6ced2be69599077aace39e7da34252eee009f6",
+    "servct_Experiment_1_008": "cc2eed06aef7d00650d9747ae038972d4dec6c13fbc00b19ce12ac46544f1aa1",
+    "servct_Experiment_2_009": "27ec534c343c7a9283663f0a2649a06f83d005a4e21323b6b40fef7b6ac1072c",
+    "servct_Experiment_2_010": "0a770b5489b029147ea985e9e0abffe552e6bcf5f9de01f6987abfa66a79125e",
+    "servct_Experiment_2_011": "2501de86e6b1148aae50ec1bd1ffd1f67bd9b2707bb46ce99339527ba9dfea7f",
+    "servct_Experiment_2_012": "9e601ffcb86b9b63bfe465092570a3d2e590f1eea5f0c7bf9779080b654f77fd",
+    "servct_Experiment_2_013": "690f8799999217968f5f8ba9564a642182853544411161cb17aeb17e6fa87c2b",
+    "servct_Experiment_2_014": "7f60bb0cea8254c1cb402f113831375347c5f45b69dc0a043fd02eae4150c589",
+    "servct_Experiment_2_015": "46695ae31f72be4b348a4d7ddf90aeabeae3facb55e396ee4d41ef08143ecdea",
+    "servct_Experiment_2_016": "4ac428d854abcd3d9ce764c613b278fd8b76c9bb8a742b3db1e0e5fdea7a4027",
+    "scared_dataset_8_keyframe_0": "daac60128a7b3e130094e91336091e028cfb5cfba8d5abe2ce4d9e642a472b3e",
+    "scared_dataset_8_keyframe_1": "87a886ba5c84e782eccf73de57958042aa5ebc9173ff70edc8ccf57a5666d24a",
+    "scared_dataset_8_keyframe_2": "845b8d0490cd6ddcb50f05660370bb660f7beef695e70549a048a9df7b0bdd7b",
+    "scared_dataset_8_keyframe_3": "ab3fdeed5024c8226ee1ac38d7f228d54b08bb4689edf0eb57409f5c7ad8404d",
+    "scared_dataset_8_keyframe_4": "3df86b2f85e8d64a53b584eaca9f2d937c5a152605674dc241b417fe90ea7965",
+    "scared_dataset_9_keyframe_0": "50a4c55eace056b0a19fbc89a622fddbc071c06f48c91bda57060dcc918051e0",
+    "scared_dataset_9_keyframe_1": "cc01d402e715bad3f7b1ceea79a0b2d8d48b764e3551c5baa9528d40eb01ee22",
+    "scared_dataset_9_keyframe_2": "905c79d2363f407a9143c994d3364701bfc453f79489fed87132aa9d7990be8f",
+    "scared_dataset_9_keyframe_3": "d5a00c9c070192d04ec6ef993776b0bef59bceeeffe9d76362ed6d890cc2ecb7",
+    "scared_dataset_9_keyframe_4": "a676aa40995bc9a4138fbaa7bbb3ac94c581fc95f897a1814ebf2c18c21967f4",
+    "drends_ExVivo_Seq00_Colon_Ext": "abb98eef9e2be36cc9325ce5c5890c9bb559ebe9fb7804d56576a4f6b3cc78df",
+    "drends_ExVivo_Seq01_Colon_Med": "ee8e609d155bbdfe9a2e32e6446d4e28fdd72e7c326fecdb7f3889434fb71fdd",
+    "drends_ExVivo_Seq02_Colon_High": "ec48b9bc021dd393ec03fd22a35f111dcf6348e8549e37535ec970b4c36bf7b4",
+    "drends_ExVivo_Seq03_Intestine_Ext": "080c53261dcf34d61731dfb505fb0e3dcd364467879759ba1e0878c6a4bf3414",
+    "drends_ExVivo_Seq04_Intestine_Med": "e667d74e35d1dbd9d3e7aee51c8df2de0f1f47ab90f3d5afdd8449a8e2dd803c",
+    "drends_ExVivo_Seq05_Intestine_High": "f6cc0527d04fa36e95e8184e94271a33757236733dc35916c76500aebc632771",
+    "drends_ExVivo_Seq06_Stomach_Ext": "620ea9b5423cebb7ce76e1e3796ef53a3806bd9da92a74f53be18c55d162f896",
+    "drends_ExVivo_Seq07_Stomach_Med": "c0ec11f40823f2007ee1fa01b7c5f113b98aee03ee52223eaad21417a19dfd81",
+    "drends_ExVivo_Seq08_Stomach_High": "e589dac325ec6636a56b7de7fad33ab404f77fc6b35cbe60a9e5c034cb38dda1",
+    "drends_ExVivo_Seq09_Pancreas_Ext": "760f9ded0ec07c04f96632f5785fc5d1a6cc391c908aa3a990857ec2331bc593",
+    "drends_ExVivo_Seq10_Pancreas_Med": "2c00f88553fac51e8c48d30ba94d20fbb834f6469e3d7005788334ac94e79ddc",
+    "drends_ExVivo_Seq11_Pancreas_High": "8e8ec9b330101a784ede7beebcd2c38fb2cfb52d23929fc260708d6cefb77dea",
+    "drends_Phantom_Seq00_Colon_Ext": "4491e3c6cb6939c611520369eda3faeec26edd50c22dd3cd43fb0e077b33d49c",
+    "drends_Phantom_Seq01_Colon_Med": "ccc83372f79fa6fcb6811a353e65ac396cada74e276e794e94a5acefa8e40e97",
+    "drends_Phantom_Seq02_Colon_High": "c9ba9d35a7fd298e07a3e2042c81fc1e78b0e14a4c86ae5723612cf9666023e1",
+    "drends_Phantom_Seq03_Intestine_Ext": "52ffd337af5cca8cdacbe5843b4c1904dfefe1fcef137accb7cb2132da938ae4",
+    "drends_Phantom_Seq04_Intestine_Med": "2cdc1e82dac66c2a9e63f52270b1a590c228c05a37ddb896d621fb6b18298941",
+    "drends_Phantom_Seq05_Intestine_High": "3792d7f2db5119ac1398b569db5edb3d66d4821239e914a2ce8db07e3cba267b",
+    "drends_Phantom_Seq06_Stomach_Ext": "ca341280a842e455c9e277e15f4cb80ce1821c3efc5815ce35adda9fb7a3ee85",
+    "drends_Phantom_Seq07_Stomach_Med": "1a1cb3f19d98cfe97ace41d01544f2b542c016e5b3e2fe4f0d568455df925404",
+    "drends_Phantom_Seq08_Stomach_High": "f0ec28a0e7bee3ade3f38abd36e30a07d77d1c4a114c1b6cb3fab4dfa2efcfc2",
+    "drends_Phantom_Seq09_Liver_Ext": "c23b2be74a0fca05b09f5d02b7741b0c4555c6261502336e94f796fbdb50445f",
+    "drends_Phantom_Seq10_Liver_Med": "c6d17ab22d645297f699f87847aa2c73ed5f4c067234bb6b393cbf0f6f7caf84",
+    "drends_Phantom_Seq11_Liver_High": "3f144684a6b0b221c4ddd6fb258594f1a5b4524f7b5be878f5dca9be41cfd6f4",
+    "drends_Phantom_Seq12_Pancreas_Ext": "af5b39aac6f18ba228b19539babf1bf1b946b4f48b39bd2fdf8fd1daa946b52c",
+    "drends_Phantom_Seq13_Pancreas_Med": "c886762d90936246649f22749afea63a98d0b2e3e24fd17fbf8c97c5f10dca20",
+    "drends_Phantom_Seq14_Pancreas_High": "5c8325f051d815f295dddf98f52cbe56d94ded694424793794681030a8e01010"
+  },
+  "train_rows": [
+    {
+      "id": "source_c1_ascending_t1_v1_0000",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/rgb/0000.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/depth/0000_depth.tiff",
+      "kind": "source",
+      "object": "c1_ascending_t1_v1"
+    },
+    {
+      "id": "source_c1_ascending_t1_v1_0026",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/rgb/0026.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/depth/0026_depth.tiff",
+      "kind": "source",
+      "object": "c1_ascending_t1_v1"
+    },
+    {
+      "id": "source_c1_ascending_t1_v1_0051",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/rgb/0051.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/depth/0051_depth.tiff",
+      "kind": "source",
+      "object": "c1_ascending_t1_v1"
+    },
+    {
+      "id": "source_c1_ascending_t1_v1_0077",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/rgb/0077.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/depth/0077_depth.tiff",
+      "kind": "source",
+      "object": "c1_ascending_t1_v1"
+    },
+    {
+      "id": "source_c1_ascending_t1_v1_0102",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/rgb/0102.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/depth/0102_depth.tiff",
+      "kind": "source",
+      "object": "c1_ascending_t1_v1"
+    },
+    {
+      "id": "source_c1_ascending_t1_v1_0128",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/rgb/0128.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/depth/0128_depth.tiff",
+      "kind": "source",
+      "object": "c1_ascending_t1_v1"
+    },
+    {
+      "id": "source_c1_ascending_t1_v1_0153",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/rgb/0153.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/depth/0153_depth.tiff",
+      "kind": "source",
+      "object": "c1_ascending_t1_v1"
+    },
+    {
+      "id": "source_c1_ascending_t1_v1_0179",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/rgb/0179.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/depth/0179_depth.tiff",
+      "kind": "source",
+      "object": "c1_ascending_t1_v1"
+    },
+    {
+      "id": "source_c1_ascending_t1_v1_0204",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/rgb/0204.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/depth/0204_depth.tiff",
+      "kind": "source",
+      "object": "c1_ascending_t1_v1"
+    },
+    {
+      "id": "source_c1_ascending_t1_v1_0230",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/rgb/0230.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/depth/0230_depth.tiff",
+      "kind": "source",
+      "object": "c1_ascending_t1_v1"
+    },
+    {
+      "id": "source_c1_ascending_t1_v1_0255",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/rgb/0255.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/depth/0255_depth.tiff",
+      "kind": "source",
+      "object": "c1_ascending_t1_v1"
+    },
+    {
+      "id": "source_c1_ascending_t1_v1_0281",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/rgb/0281.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_native_subset/c1_ascending_t1_v1/depth/0281_depth.tiff",
+      "kind": "source",
+      "object": "c1_ascending_t1_v1"
+    },
+    {
+      "id": "source_c1_cecum_t1_v3_0000",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/rgb/0000.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/depth/0000_depth.tiff",
+      "kind": "source",
+      "object": "c1_cecum_t1_v3"
+    },
+    {
+      "id": "source_c1_cecum_t1_v3_0060",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/rgb/0060.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/depth/0060_depth.tiff",
+      "kind": "source",
+      "object": "c1_cecum_t1_v3"
+    },
+    {
+      "id": "source_c1_cecum_t1_v3_0121",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/rgb/0121.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/depth/0121_depth.tiff",
+      "kind": "source",
+      "object": "c1_cecum_t1_v3"
+    },
+    {
+      "id": "source_c1_cecum_t1_v3_0181",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/rgb/0181.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/depth/0181_depth.tiff",
+      "kind": "source",
+      "object": "c1_cecum_t1_v3"
+    },
+    {
+      "id": "source_c1_cecum_t1_v3_0241",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/rgb/0241.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/depth/0241_depth.tiff",
+      "kind": "source",
+      "object": "c1_cecum_t1_v3"
+    },
+    {
+      "id": "source_c1_cecum_t1_v3_0301",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/rgb/0301.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/depth/0301_depth.tiff",
+      "kind": "source",
+      "object": "c1_cecum_t1_v3"
+    },
+    {
+      "id": "source_c1_cecum_t1_v3_0362",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/rgb/0362.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/depth/0362_depth.tiff",
+      "kind": "source",
+      "object": "c1_cecum_t1_v3"
+    },
+    {
+      "id": "source_c1_cecum_t1_v3_0422",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/rgb/0422.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_cecum_t1_v3/depth/0422_depth.tiff",
+      "kind": "source",
+      "object": "c1_cecum_t1_v3"
+    },
+    {
+      "id": "source_c1_rectum_t1_v3_0000",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/rgb/0000.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/depth/0000_depth.tiff",
+      "kind": "source",
+      "object": "c1_rectum_t1_v3"
+    },
+    {
+      "id": "source_c1_rectum_t1_v3_0055",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/rgb/0055.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/depth/0055_depth.tiff",
+      "kind": "source",
+      "object": "c1_rectum_t1_v3"
+    },
+    {
+      "id": "source_c1_rectum_t1_v3_0109",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/rgb/0109.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/depth/0109_depth.tiff",
+      "kind": "source",
+      "object": "c1_rectum_t1_v3"
+    },
+    {
+      "id": "source_c1_rectum_t1_v3_0164",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/rgb/0164.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/depth/0164_depth.tiff",
+      "kind": "source",
+      "object": "c1_rectum_t1_v3"
+    },
+    {
+      "id": "source_c1_rectum_t1_v3_0218",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/rgb/0218.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/depth/0218_depth.tiff",
+      "kind": "source",
+      "object": "c1_rectum_t1_v3"
+    },
+    {
+      "id": "source_c1_rectum_t1_v3_0273",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/rgb/0273.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/depth/0273_depth.tiff",
+      "kind": "source",
+      "object": "c1_rectum_t1_v3"
+    },
+    {
+      "id": "source_c1_rectum_t1_v3_0327",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/rgb/0327.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/depth/0327_depth.tiff",
+      "kind": "source",
+      "object": "c1_rectum_t1_v3"
+    },
+    {
+      "id": "source_c1_rectum_t1_v3_0382",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/rgb/0382.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_rectum_t1_v3/depth/0382_depth.tiff",
+      "kind": "source",
+      "object": "c1_rectum_t1_v3"
+    },
+    {
+      "id": "source_c1_sigmoid1_t1_v3_0000",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/rgb/0000.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/depth/0000_depth.tiff",
+      "kind": "source",
+      "object": "c1_sigmoid1_t1_v3"
+    },
+    {
+      "id": "source_c1_sigmoid1_t1_v3_0044",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/rgb/0044.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/depth/0044_depth.tiff",
+      "kind": "source",
+      "object": "c1_sigmoid1_t1_v3"
+    },
+    {
+      "id": "source_c1_sigmoid1_t1_v3_0087",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/rgb/0087.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/depth/0087_depth.tiff",
+      "kind": "source",
+      "object": "c1_sigmoid1_t1_v3"
+    },
+    {
+      "id": "source_c1_sigmoid1_t1_v3_0131",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/rgb/0131.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/depth/0131_depth.tiff",
+      "kind": "source",
+      "object": "c1_sigmoid1_t1_v3"
+    },
+    {
+      "id": "source_c1_sigmoid1_t1_v3_0175",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/rgb/0175.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/depth/0175_depth.tiff",
+      "kind": "source",
+      "object": "c1_sigmoid1_t1_v3"
+    },
+    {
+      "id": "source_c1_sigmoid1_t1_v3_0219",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/rgb/0219.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/depth/0219_depth.tiff",
+      "kind": "source",
+      "object": "c1_sigmoid1_t1_v3"
+    },
+    {
+      "id": "source_c1_sigmoid1_t1_v3_0262",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/rgb/0262.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/depth/0262_depth.tiff",
+      "kind": "source",
+      "object": "c1_sigmoid1_t1_v3"
+    },
+    {
+      "id": "source_c1_sigmoid1_t1_v3_0306",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/rgb/0306.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_sigmoid1_t1_v3/depth/0306_depth.tiff",
+      "kind": "source",
+      "object": "c1_sigmoid1_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse1_t1_v3_0000",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/rgb/0000.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/depth/0000_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse1_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse1_t1_v3_0017",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/rgb/0017.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/depth/0017_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse1_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse1_t1_v3_0033",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/rgb/0033.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/depth/0033_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse1_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse1_t1_v3_0050",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/rgb/0050.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/depth/0050_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse1_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse1_t1_v3_0066",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/rgb/0066.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/depth/0066_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse1_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse1_t1_v3_0083",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/rgb/0083.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/depth/0083_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse1_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse1_t1_v3_0099",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/rgb/0099.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/depth/0099_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse1_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse1_t1_v3_0116",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/rgb/0116.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse1_t1_v3/depth/0116_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse1_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse2_t1_v3_0000",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/rgb/0000.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/depth/0000_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse2_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse2_t1_v3_0074",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/rgb/0074.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/depth/0074_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse2_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse2_t1_v3_0147",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/rgb/0147.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/depth/0147_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse2_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse2_t1_v3_0221",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/rgb/0221.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/depth/0221_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse2_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse2_t1_v3_0295",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/rgb/0295.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/depth/0295_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse2_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse2_t1_v3_0369",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/rgb/0369.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/depth/0369_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse2_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse2_t1_v3_0442",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/rgb/0442.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/depth/0442_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse2_t1_v3"
+    },
+    {
+      "id": "source_c1_transverse2_t1_v3_0516",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/rgb/0516.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VDv2_robust_development/c1_transverse2_t1_v3/depth/0516_depth.tiff",
+      "kind": "source",
+      "object": "c1_transverse2_t1_v3"
+    },
+    {
+      "id": "target_1_keyframe_1",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_1/keyframe_1/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_1/keyframe_1/left_depth_map.tiff",
+      "kind": "target",
+      "object": 1
+    },
+    {
+      "id": "target_1_keyframe_2",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_1/keyframe_2/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_1/keyframe_2/left_depth_map.tiff",
+      "kind": "target",
+      "object": 1
+    },
+    {
+      "id": "target_1_keyframe_3",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_1/keyframe_3/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_1/keyframe_3/left_depth_map.tiff",
+      "kind": "target",
+      "object": 1
+    },
+    {
+      "id": "target_1_keyframe_4",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_1/keyframe_4/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_1/keyframe_4/left_depth_map.tiff",
+      "kind": "target",
+      "object": 1
+    },
+    {
+      "id": "target_1_keyframe_5",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_1/keyframe_5/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_1/keyframe_5/left_depth_map.tiff",
+      "kind": "target",
+      "object": 1
+    },
+    {
+      "id": "target_2_keyframe_1",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_2/keyframe_1/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_2/keyframe_1/left_depth_map.tiff",
+      "kind": "target",
+      "object": 2
+    },
+    {
+      "id": "target_2_keyframe_2",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_2/keyframe_2/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_2/keyframe_2/left_depth_map.tiff",
+      "kind": "target",
+      "object": 2
+    },
+    {
+      "id": "target_2_keyframe_3",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_2/keyframe_3/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_2/keyframe_3/left_depth_map.tiff",
+      "kind": "target",
+      "object": 2
+    },
+    {
+      "id": "target_2_keyframe_4",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_2/keyframe_4/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_2/keyframe_4/left_depth_map.tiff",
+      "kind": "target",
+      "object": 2
+    },
+    {
+      "id": "target_2_keyframe_5",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_2/keyframe_5/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_2/keyframe_5/left_depth_map.tiff",
+      "kind": "target",
+      "object": 2
+    },
+    {
+      "id": "target_3_keyframe_1",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_3/keyframe_1/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_3/keyframe_1/left_depth_map.tiff",
+      "kind": "target",
+      "object": 3
+    },
+    {
+      "id": "target_3_keyframe_2",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_3/keyframe_2/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_3/keyframe_2/left_depth_map.tiff",
+      "kind": "target",
+      "object": 3
+    },
+    {
+      "id": "target_3_keyframe_3",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_3/keyframe_3/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_3/keyframe_3/left_depth_map.tiff",
+      "kind": "target",
+      "object": 3
+    },
+    {
+      "id": "target_3_keyframe_4",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_3/keyframe_4/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_3/keyframe_4/left_depth_map.tiff",
+      "kind": "target",
+      "object": 3
+    },
+    {
+      "id": "target_3_keyframe_5",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_3/keyframe_5/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_3/keyframe_5/left_depth_map.tiff",
+      "kind": "target",
+      "object": 3
+    },
+    {
+      "id": "target_6_keyframe_1",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_6/keyframe_1/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_6/keyframe_1/left_depth_map.tiff",
+      "kind": "target",
+      "object": 6
+    },
+    {
+      "id": "target_6_keyframe_2",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_6/keyframe_2/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_6/keyframe_2/left_depth_map.tiff",
+      "kind": "target",
+      "object": 6
+    },
+    {
+      "id": "target_6_keyframe_3",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_6/keyframe_3/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_6/keyframe_3/left_depth_map.tiff",
+      "kind": "target",
+      "object": 6
+    },
+    {
+      "id": "target_6_keyframe_4",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_6/keyframe_4/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_6/keyframe_4/left_depth_map.tiff",
+      "kind": "target",
+      "object": 6
+    },
+    {
+      "id": "target_6_keyframe_5",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_6/keyframe_5/Left_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_6/keyframe_5/left_depth_map.tiff",
+      "kind": "target",
+      "object": 6
+    }
+  ],
+  "test_rows": [
+    {
+      "scene": "cecum_t2_a",
+      "frame_id": "0000",
+      "color_member": "cecum_t2_a/0000_color.png",
+      "depth_member": "cecum_t2_a/0000_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0000_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0000_depth.tiff",
+      "rgb_sha256": "237fddab017717d386ef21a3f437788fe6efe7e93d0c1fa69ad40c122c08a411",
+      "cohort": "c3vd",
+      "object": "cecum_t2_a",
+      "id": "c3vd_cecum_t2_a_0000",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0000_color.png"
+    },
+    {
+      "scene": "cecum_t2_a",
+      "frame_id": "0034",
+      "color_member": "cecum_t2_a/0034_color.png",
+      "depth_member": "cecum_t2_a/0034_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0034_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0034_depth.tiff",
+      "rgb_sha256": "f18b926f933c69fd4db73be7966c035831471f0d7226769ed7739e6ad06e511a",
+      "cohort": "c3vd",
+      "object": "cecum_t2_a",
+      "id": "c3vd_cecum_t2_a_0034",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0034_color.png"
+    },
+    {
+      "scene": "cecum_t2_a",
+      "frame_id": "0067",
+      "color_member": "cecum_t2_a/0067_color.png",
+      "depth_member": "cecum_t2_a/0067_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0067_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0067_depth.tiff",
+      "rgb_sha256": "0830c0900d663b963e3238be6d3b23c01543f2781290d6d1fe77629d6892fcf9",
+      "cohort": "c3vd",
+      "object": "cecum_t2_a",
+      "id": "c3vd_cecum_t2_a_0067",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0067_color.png"
+    },
+    {
+      "scene": "cecum_t2_a",
+      "frame_id": "0101",
+      "color_member": "cecum_t2_a/0101_color.png",
+      "depth_member": "cecum_t2_a/0101_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0101_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0101_depth.tiff",
+      "rgb_sha256": "f8f96cd25ed4507508ef6ac8cef3788aabc8a5fc8a50d196b09e6eedb0397153",
+      "cohort": "c3vd",
+      "object": "cecum_t2_a",
+      "id": "c3vd_cecum_t2_a_0101",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0101_color.png"
+    },
+    {
+      "scene": "cecum_t2_a",
+      "frame_id": "0134",
+      "color_member": "cecum_t2_a/0134_color.png",
+      "depth_member": "cecum_t2_a/0134_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0134_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0134_depth.tiff",
+      "rgb_sha256": "8239b72aa90cabed3890cd932139d8efcc836ea6aa880eba87146eef9bbe3566",
+      "cohort": "c3vd",
+      "object": "cecum_t2_a",
+      "id": "c3vd_cecum_t2_a_0134",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0134_color.png"
+    },
+    {
+      "scene": "cecum_t2_a",
+      "frame_id": "0168",
+      "color_member": "cecum_t2_a/0168_color.png",
+      "depth_member": "cecum_t2_a/0168_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0168_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0168_depth.tiff",
+      "rgb_sha256": "88a48ffac63c284f80eac4cbd9694fce5948090ae7fc7c1d8b4b4d042e1019c1",
+      "cohort": "c3vd",
+      "object": "cecum_t2_a",
+      "id": "c3vd_cecum_t2_a_0168",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0168_color.png"
+    },
+    {
+      "scene": "cecum_t2_a",
+      "frame_id": "0201",
+      "color_member": "cecum_t2_a/0201_color.png",
+      "depth_member": "cecum_t2_a/0201_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0201_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0201_depth.tiff",
+      "rgb_sha256": "cdc0049d6f9d55b77824cc49d0bd5cdb738cfaa35f5c09ca0cfe1be3569d78be",
+      "cohort": "c3vd",
+      "object": "cecum_t2_a",
+      "id": "c3vd_cecum_t2_a_0201",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0201_color.png"
+    },
+    {
+      "scene": "cecum_t2_a",
+      "frame_id": "0235",
+      "color_member": "cecum_t2_a/0235_color.png",
+      "depth_member": "cecum_t2_a/0235_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0235_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0235_depth.tiff",
+      "rgb_sha256": "eea95536f1ca08300b8a88cb8186c083b1e4df359221ccca83b3b25bb45f0cf1",
+      "cohort": "c3vd",
+      "object": "cecum_t2_a",
+      "id": "c3vd_cecum_t2_a_0235",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0235_color.png"
+    },
+    {
+      "scene": "cecum_t2_a",
+      "frame_id": "0268",
+      "color_member": "cecum_t2_a/0268_color.png",
+      "depth_member": "cecum_t2_a/0268_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0268_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0268_depth.tiff",
+      "rgb_sha256": "df5fe096bc3d1c4f4b5d7a239ea170eb81e9401eb34494f7596e28836afcd49d",
+      "cohort": "c3vd",
+      "object": "cecum_t2_a",
+      "id": "c3vd_cecum_t2_a_0268",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0268_color.png"
+    },
+    {
+      "scene": "cecum_t2_a",
+      "frame_id": "0302",
+      "color_member": "cecum_t2_a/0302_color.png",
+      "depth_member": "cecum_t2_a/0302_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0302_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0302_depth.tiff",
+      "rgb_sha256": "0f0b3af42eeb04bbaca8b2ae8ed78a71d9a4255ab248b232ef2882f58f09de57",
+      "cohort": "c3vd",
+      "object": "cecum_t2_a",
+      "id": "c3vd_cecum_t2_a_0302",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0302_color.png"
+    },
+    {
+      "scene": "cecum_t2_a",
+      "frame_id": "0335",
+      "color_member": "cecum_t2_a/0335_color.png",
+      "depth_member": "cecum_t2_a/0335_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0335_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0335_depth.tiff",
+      "rgb_sha256": "d4b8b7061f8c4c47e259d344084a34bc56109b72099817c3de329b8888e18a6f",
+      "cohort": "c3vd",
+      "object": "cecum_t2_a",
+      "id": "c3vd_cecum_t2_a_0335",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0335_color.png"
+    },
+    {
+      "scene": "cecum_t2_a",
+      "frame_id": "0369",
+      "color_member": "cecum_t2_a/0369_color.png",
+      "depth_member": "cecum_t2_a/0369_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0369_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0369_depth.tiff",
+      "rgb_sha256": "9d6f1cc1bb7d621b200cc3ac3f023f698a209c349aed8eed97a470a1a54a0d1c",
+      "cohort": "c3vd",
+      "object": "cecum_t2_a",
+      "id": "c3vd_cecum_t2_a_0369",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t2_a/0369_color.png"
+    },
+    {
+      "scene": "cecum_t3_a",
+      "frame_id": "0000",
+      "color_member": "cecum_t3_a/0000_color.png",
+      "depth_member": "cecum_t3_a/0000_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0000_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0000_depth.tiff",
+      "rgb_sha256": "d39eb45fc33a4599f566287927cb42d2aed940b91f3368fce0f0b9a488fedf75",
+      "cohort": "c3vd",
+      "object": "cecum_t3_a",
+      "id": "c3vd_cecum_t3_a_0000",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0000_color.png"
+    },
+    {
+      "scene": "cecum_t3_a",
+      "frame_id": "0066",
+      "color_member": "cecum_t3_a/0066_color.png",
+      "depth_member": "cecum_t3_a/0066_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0066_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0066_depth.tiff",
+      "rgb_sha256": "3c93d771955ebdf678b0faff7e300a05cc7731cfd35242304118903871743ea0",
+      "cohort": "c3vd",
+      "object": "cecum_t3_a",
+      "id": "c3vd_cecum_t3_a_0066",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0066_color.png"
+    },
+    {
+      "scene": "cecum_t3_a",
+      "frame_id": "0133",
+      "color_member": "cecum_t3_a/0133_color.png",
+      "depth_member": "cecum_t3_a/0133_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0133_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0133_depth.tiff",
+      "rgb_sha256": "0ac05ab5aa52b4addcd7c475829f5f3683edb19b531fd1b739fa11ecf1dcb606",
+      "cohort": "c3vd",
+      "object": "cecum_t3_a",
+      "id": "c3vd_cecum_t3_a_0133",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0133_color.png"
+    },
+    {
+      "scene": "cecum_t3_a",
+      "frame_id": "0199",
+      "color_member": "cecum_t3_a/0199_color.png",
+      "depth_member": "cecum_t3_a/0199_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0199_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0199_depth.tiff",
+      "rgb_sha256": "f1c084dfca731e46277f857592484bd2f3fa015f36055a942cdba51532f8da2f",
+      "cohort": "c3vd",
+      "object": "cecum_t3_a",
+      "id": "c3vd_cecum_t3_a_0199",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0199_color.png"
+    },
+    {
+      "scene": "cecum_t3_a",
+      "frame_id": "0265",
+      "color_member": "cecum_t3_a/0265_color.png",
+      "depth_member": "cecum_t3_a/0265_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0265_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0265_depth.tiff",
+      "rgb_sha256": "ddebc18abae0d4aa1eb6dce120118ec03faef16802018073256095131d054284",
+      "cohort": "c3vd",
+      "object": "cecum_t3_a",
+      "id": "c3vd_cecum_t3_a_0265",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0265_color.png"
+    },
+    {
+      "scene": "cecum_t3_a",
+      "frame_id": "0331",
+      "color_member": "cecum_t3_a/0331_color.png",
+      "depth_member": "cecum_t3_a/0331_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0331_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0331_depth.tiff",
+      "rgb_sha256": "b1a27edc1ee83dd129592a7f9cb66d2ac293a90998a69227482f3a183a122308",
+      "cohort": "c3vd",
+      "object": "cecum_t3_a",
+      "id": "c3vd_cecum_t3_a_0331",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0331_color.png"
+    },
+    {
+      "scene": "cecum_t3_a",
+      "frame_id": "0398",
+      "color_member": "cecum_t3_a/0398_color.png",
+      "depth_member": "cecum_t3_a/0398_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0398_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0398_depth.tiff",
+      "rgb_sha256": "4b22a15eeac05b2227e0d604be59153e6f22722200fe6b46912b529bac56ab42",
+      "cohort": "c3vd",
+      "object": "cecum_t3_a",
+      "id": "c3vd_cecum_t3_a_0398",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0398_color.png"
+    },
+    {
+      "scene": "cecum_t3_a",
+      "frame_id": "0464",
+      "color_member": "cecum_t3_a/0464_color.png",
+      "depth_member": "cecum_t3_a/0464_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0464_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0464_depth.tiff",
+      "rgb_sha256": "c07c707762473d90dfc34fd8d394f54049b62fd167ffecb828ca741629e17eef",
+      "cohort": "c3vd",
+      "object": "cecum_t3_a",
+      "id": "c3vd_cecum_t3_a_0464",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0464_color.png"
+    },
+    {
+      "scene": "cecum_t3_a",
+      "frame_id": "0530",
+      "color_member": "cecum_t3_a/0530_color.png",
+      "depth_member": "cecum_t3_a/0530_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0530_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0530_depth.tiff",
+      "rgb_sha256": "9c56e8c5c17a03b1191774afa6b54db987bf1b58ccf8e23dfdab65224c18670c",
+      "cohort": "c3vd",
+      "object": "cecum_t3_a",
+      "id": "c3vd_cecum_t3_a_0530",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0530_color.png"
+    },
+    {
+      "scene": "cecum_t3_a",
+      "frame_id": "0596",
+      "color_member": "cecum_t3_a/0596_color.png",
+      "depth_member": "cecum_t3_a/0596_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0596_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0596_depth.tiff",
+      "rgb_sha256": "310213c493b0000801c4ef6a3098e8a41ebd85718e420341c596d772fb783e4f",
+      "cohort": "c3vd",
+      "object": "cecum_t3_a",
+      "id": "c3vd_cecum_t3_a_0596",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0596_color.png"
+    },
+    {
+      "scene": "cecum_t3_a",
+      "frame_id": "0663",
+      "color_member": "cecum_t3_a/0663_color.png",
+      "depth_member": "cecum_t3_a/0663_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0663_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0663_depth.tiff",
+      "rgb_sha256": "44defc44e02fdc6324be0c1bf9e14f5ffafb736fd6ee8e3b7130db2094e921d9",
+      "cohort": "c3vd",
+      "object": "cecum_t3_a",
+      "id": "c3vd_cecum_t3_a_0663",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0663_color.png"
+    },
+    {
+      "scene": "cecum_t3_a",
+      "frame_id": "0729",
+      "color_member": "cecum_t3_a/0729_color.png",
+      "depth_member": "cecum_t3_a/0729_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0729_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0729_depth.tiff",
+      "rgb_sha256": "6b90ca777cce846f0d5ddb419d82e5cd3298da981e69b41229a8d26defc5919b",
+      "cohort": "c3vd",
+      "object": "cecum_t3_a",
+      "id": "c3vd_cecum_t3_a_0729",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/cecum_t3_a/0729_color.png"
+    },
+    {
+      "scene": "sigmoid_t2_a",
+      "frame_id": "0000",
+      "color_member": "sigmoid_t2_a/0000_color.png",
+      "depth_member": "sigmoid_t2_a/0000_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0000_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0000_depth.tiff",
+      "rgb_sha256": "7f1f2f334259243d7db795a6ae314804745e0820ece00f397c943bef016ec230",
+      "cohort": "c3vd",
+      "object": "sigmoid_t2_a",
+      "id": "c3vd_sigmoid_t2_a_0000",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0000_color.png"
+    },
+    {
+      "scene": "sigmoid_t2_a",
+      "frame_id": "0047",
+      "color_member": "sigmoid_t2_a/0047_color.png",
+      "depth_member": "sigmoid_t2_a/0047_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0047_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0047_depth.tiff",
+      "rgb_sha256": "d03892cee7edb72a2f88512bbfb3c4d525efe2c51975898f2f276307880cb1ad",
+      "cohort": "c3vd",
+      "object": "sigmoid_t2_a",
+      "id": "c3vd_sigmoid_t2_a_0047",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0047_color.png"
+    },
+    {
+      "scene": "sigmoid_t2_a",
+      "frame_id": "0093",
+      "color_member": "sigmoid_t2_a/0093_color.png",
+      "depth_member": "sigmoid_t2_a/0093_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0093_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0093_depth.tiff",
+      "rgb_sha256": "718d2618829f4c9eba6f9c694e8ddf086d685881acb4d95ab4f6df576bf528d8",
+      "cohort": "c3vd",
+      "object": "sigmoid_t2_a",
+      "id": "c3vd_sigmoid_t2_a_0093",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0093_color.png"
+    },
+    {
+      "scene": "sigmoid_t2_a",
+      "frame_id": "0140",
+      "color_member": "sigmoid_t2_a/0140_color.png",
+      "depth_member": "sigmoid_t2_a/0140_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0140_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0140_depth.tiff",
+      "rgb_sha256": "1dc48cdb0b779302601b2e95f73a1eac1000d15479972a8660710447d5b65c05",
+      "cohort": "c3vd",
+      "object": "sigmoid_t2_a",
+      "id": "c3vd_sigmoid_t2_a_0140",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0140_color.png"
+    },
+    {
+      "scene": "sigmoid_t2_a",
+      "frame_id": "0187",
+      "color_member": "sigmoid_t2_a/0187_color.png",
+      "depth_member": "sigmoid_t2_a/0187_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0187_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0187_depth.tiff",
+      "rgb_sha256": "591dcf5279b84db3a4633819f6790732bbe3a6c5c47e6ee5fc16e25e2562f6c5",
+      "cohort": "c3vd",
+      "object": "sigmoid_t2_a",
+      "id": "c3vd_sigmoid_t2_a_0187",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0187_color.png"
+    },
+    {
+      "scene": "sigmoid_t2_a",
+      "frame_id": "0233",
+      "color_member": "sigmoid_t2_a/0233_color.png",
+      "depth_member": "sigmoid_t2_a/0233_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0233_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0233_depth.tiff",
+      "rgb_sha256": "d5d7faabe5000dcf53287de3c8ec2390ad32af7a3cc0cf496a4d0e4da15183bf",
+      "cohort": "c3vd",
+      "object": "sigmoid_t2_a",
+      "id": "c3vd_sigmoid_t2_a_0233",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0233_color.png"
+    },
+    {
+      "scene": "sigmoid_t2_a",
+      "frame_id": "0280",
+      "color_member": "sigmoid_t2_a/0280_color.png",
+      "depth_member": "sigmoid_t2_a/0280_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0280_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0280_depth.tiff",
+      "rgb_sha256": "45616b6cb78a42836ff48248522c8c42f47dcb13d3d5652b5070b06ea4bf9aa8",
+      "cohort": "c3vd",
+      "object": "sigmoid_t2_a",
+      "id": "c3vd_sigmoid_t2_a_0280",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0280_color.png"
+    },
+    {
+      "scene": "sigmoid_t2_a",
+      "frame_id": "0326",
+      "color_member": "sigmoid_t2_a/0326_color.png",
+      "depth_member": "sigmoid_t2_a/0326_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0326_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0326_depth.tiff",
+      "rgb_sha256": "5f77e154e0cea1fa297612c2762e28b8ac472a79ba4ce1a9557e49dacba6036c",
+      "cohort": "c3vd",
+      "object": "sigmoid_t2_a",
+      "id": "c3vd_sigmoid_t2_a_0326",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0326_color.png"
+    },
+    {
+      "scene": "sigmoid_t2_a",
+      "frame_id": "0373",
+      "color_member": "sigmoid_t2_a/0373_color.png",
+      "depth_member": "sigmoid_t2_a/0373_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0373_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0373_depth.tiff",
+      "rgb_sha256": "deb237038b3032ea3c6656550dcd89287435a004299b4876c1ef17b81a277818",
+      "cohort": "c3vd",
+      "object": "sigmoid_t2_a",
+      "id": "c3vd_sigmoid_t2_a_0373",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0373_color.png"
+    },
+    {
+      "scene": "sigmoid_t2_a",
+      "frame_id": "0420",
+      "color_member": "sigmoid_t2_a/0420_color.png",
+      "depth_member": "sigmoid_t2_a/0420_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0420_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0420_depth.tiff",
+      "rgb_sha256": "1cb9dca174604ca6d410cf5399fd69ddbaff22bb1b0e46b2c5971a865f1beb1f",
+      "cohort": "c3vd",
+      "object": "sigmoid_t2_a",
+      "id": "c3vd_sigmoid_t2_a_0420",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0420_color.png"
+    },
+    {
+      "scene": "sigmoid_t2_a",
+      "frame_id": "0466",
+      "color_member": "sigmoid_t2_a/0466_color.png",
+      "depth_member": "sigmoid_t2_a/0466_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0466_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0466_depth.tiff",
+      "rgb_sha256": "6a6cca739ee4c08b464e38d6d4757ce6713601afc15f4bb3ff96f6ed5d16a0c0",
+      "cohort": "c3vd",
+      "object": "sigmoid_t2_a",
+      "id": "c3vd_sigmoid_t2_a_0466",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0466_color.png"
+    },
+    {
+      "scene": "sigmoid_t2_a",
+      "frame_id": "0513",
+      "color_member": "sigmoid_t2_a/0513_color.png",
+      "depth_member": "sigmoid_t2_a/0513_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0513_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0513_depth.tiff",
+      "rgb_sha256": "ecf3cb1f11b58bc9d0ab484d2a5a75c7ef83292ba77daaca206fb717456bf8ba",
+      "cohort": "c3vd",
+      "object": "sigmoid_t2_a",
+      "id": "c3vd_sigmoid_t2_a_0513",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/sigmoid_t2_a/0513_color.png"
+    },
+    {
+      "scene": "trans_t2_a",
+      "frame_id": "0000",
+      "color_member": "trans_t2_a/0000_color.png",
+      "depth_member": "trans_t2_a/0000_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0000_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0000_depth.tiff",
+      "rgb_sha256": "5c3488c457d2736d07616fd70254b0a6000b854a19d27920ac2f60d1860c91ba",
+      "cohort": "c3vd",
+      "object": "trans_t2_a",
+      "id": "c3vd_trans_t2_a_0000",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0000_color.png"
+    },
+    {
+      "scene": "trans_t2_a",
+      "frame_id": "0018",
+      "color_member": "trans_t2_a/0018_color.png",
+      "depth_member": "trans_t2_a/0018_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0018_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0018_depth.tiff",
+      "rgb_sha256": "e74a24cdafa2dbafd412111f094b38641b081b09dbbfb2e1fa028038af20537c",
+      "cohort": "c3vd",
+      "object": "trans_t2_a",
+      "id": "c3vd_trans_t2_a_0018",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0018_color.png"
+    },
+    {
+      "scene": "trans_t2_a",
+      "frame_id": "0035",
+      "color_member": "trans_t2_a/0035_color.png",
+      "depth_member": "trans_t2_a/0035_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0035_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0035_depth.tiff",
+      "rgb_sha256": "0fffd17f46b5e1a4c5d549c7b78775f5c9f8097fccf59528cfc698e826803c69",
+      "cohort": "c3vd",
+      "object": "trans_t2_a",
+      "id": "c3vd_trans_t2_a_0035",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0035_color.png"
+    },
+    {
+      "scene": "trans_t2_a",
+      "frame_id": "0053",
+      "color_member": "trans_t2_a/0053_color.png",
+      "depth_member": "trans_t2_a/0053_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0053_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0053_depth.tiff",
+      "rgb_sha256": "c7e1bf99572c697514adac7f04592c4eee5c007235391b3246ba45dc924d44d7",
+      "cohort": "c3vd",
+      "object": "trans_t2_a",
+      "id": "c3vd_trans_t2_a_0053",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0053_color.png"
+    },
+    {
+      "scene": "trans_t2_a",
+      "frame_id": "0070",
+      "color_member": "trans_t2_a/0070_color.png",
+      "depth_member": "trans_t2_a/0070_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0070_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0070_depth.tiff",
+      "rgb_sha256": "afc792f8cbf145f80f74a83c13b3b4cd9f1a701b97f4201553cfb3dc25717029",
+      "cohort": "c3vd",
+      "object": "trans_t2_a",
+      "id": "c3vd_trans_t2_a_0070",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0070_color.png"
+    },
+    {
+      "scene": "trans_t2_a",
+      "frame_id": "0088",
+      "color_member": "trans_t2_a/0088_color.png",
+      "depth_member": "trans_t2_a/0088_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0088_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0088_depth.tiff",
+      "rgb_sha256": "901a31c9d7f1a052613ecf73f8977703c13d498b3bb533dad9e129ee87a09872",
+      "cohort": "c3vd",
+      "object": "trans_t2_a",
+      "id": "c3vd_trans_t2_a_0088",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0088_color.png"
+    },
+    {
+      "scene": "trans_t2_a",
+      "frame_id": "0105",
+      "color_member": "trans_t2_a/0105_color.png",
+      "depth_member": "trans_t2_a/0105_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0105_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0105_depth.tiff",
+      "rgb_sha256": "237d194a38bfc26c10de70b895c4473452c4d8cb16c189d15c92669598000d0a",
+      "cohort": "c3vd",
+      "object": "trans_t2_a",
+      "id": "c3vd_trans_t2_a_0105",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0105_color.png"
+    },
+    {
+      "scene": "trans_t2_a",
+      "frame_id": "0123",
+      "color_member": "trans_t2_a/0123_color.png",
+      "depth_member": "trans_t2_a/0123_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0123_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0123_depth.tiff",
+      "rgb_sha256": "646427ba7ef499621879f51d3c84034a57758e6c8fdb854436bbb07d8b65d93f",
+      "cohort": "c3vd",
+      "object": "trans_t2_a",
+      "id": "c3vd_trans_t2_a_0123",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0123_color.png"
+    },
+    {
+      "scene": "trans_t2_a",
+      "frame_id": "0140",
+      "color_member": "trans_t2_a/0140_color.png",
+      "depth_member": "trans_t2_a/0140_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0140_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0140_depth.tiff",
+      "rgb_sha256": "81bbe1afaf22421fb9618235d0987ccd2e8f2c812bcdf0c79dc92e5f3236dce5",
+      "cohort": "c3vd",
+      "object": "trans_t2_a",
+      "id": "c3vd_trans_t2_a_0140",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0140_color.png"
+    },
+    {
+      "scene": "trans_t2_a",
+      "frame_id": "0158",
+      "color_member": "trans_t2_a/0158_color.png",
+      "depth_member": "trans_t2_a/0158_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0158_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0158_depth.tiff",
+      "rgb_sha256": "fe284d856fe79c340a4310ceabddcf0010352e7d5901fd13d95d6144218d6e4b",
+      "cohort": "c3vd",
+      "object": "trans_t2_a",
+      "id": "c3vd_trans_t2_a_0158",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0158_color.png"
+    },
+    {
+      "scene": "trans_t2_a",
+      "frame_id": "0175",
+      "color_member": "trans_t2_a/0175_color.png",
+      "depth_member": "trans_t2_a/0175_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0175_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0175_depth.tiff",
+      "rgb_sha256": "55e0824e30389625804d611c26a1c7655b4b950ebe58274d6052a3fc1d5e083a",
+      "cohort": "c3vd",
+      "object": "trans_t2_a",
+      "id": "c3vd_trans_t2_a_0175",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0175_color.png"
+    },
+    {
+      "scene": "trans_t2_a",
+      "frame_id": "0193",
+      "color_member": "trans_t2_a/0193_color.png",
+      "depth_member": "trans_t2_a/0193_depth.tiff",
+      "color_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0193_color.png",
+      "depth_path": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0193_depth.tiff",
+      "rgb_sha256": "f78bc05060df77af2c4743d6ca93c1e99add08ef42794a3ce392de6797306e03",
+      "cohort": "c3vd",
+      "object": "trans_t2_a",
+      "id": "c3vd_trans_t2_a_0193",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/C3VD_publication_final/trans_t2_a/0193_color.png"
+    },
+    {
+      "object": "Experiment_1",
+      "frame_id": "001",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Left_rectified/001.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/DepthL/001.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/OcclusionL/001.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Rectified_calibration/001.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_1_001"
+    },
+    {
+      "object": "Experiment_1",
+      "frame_id": "002",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Left_rectified/002.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/DepthL/002.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/OcclusionL/002.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Rectified_calibration/002.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_1_002"
+    },
+    {
+      "object": "Experiment_1",
+      "frame_id": "003",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Left_rectified/003.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/DepthL/003.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/OcclusionL/003.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Rectified_calibration/003.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_1_003"
+    },
+    {
+      "object": "Experiment_1",
+      "frame_id": "004",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Left_rectified/004.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/DepthL/004.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/OcclusionL/004.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Rectified_calibration/004.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_1_004"
+    },
+    {
+      "object": "Experiment_1",
+      "frame_id": "005",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Left_rectified/005.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/DepthL/005.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/OcclusionL/005.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Rectified_calibration/005.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_1_005"
+    },
+    {
+      "object": "Experiment_1",
+      "frame_id": "006",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Left_rectified/006.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/DepthL/006.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/OcclusionL/006.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Rectified_calibration/006.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_1_006"
+    },
+    {
+      "object": "Experiment_1",
+      "frame_id": "007",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Left_rectified/007.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/DepthL/007.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/OcclusionL/007.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Rectified_calibration/007.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_1_007"
+    },
+    {
+      "object": "Experiment_1",
+      "frame_id": "008",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Left_rectified/008.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/DepthL/008.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Ground_truth_CT/OcclusionL/008.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_1/Rectified_calibration/008.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_1_008"
+    },
+    {
+      "object": "Experiment_2",
+      "frame_id": "009",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Left_rectified/009.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/DepthL/009.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/OcclusionL/009.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Rectified_calibration/009.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_2_009"
+    },
+    {
+      "object": "Experiment_2",
+      "frame_id": "010",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Left_rectified/010.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/DepthL/010.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/OcclusionL/010.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Rectified_calibration/010.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_2_010"
+    },
+    {
+      "object": "Experiment_2",
+      "frame_id": "011",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Left_rectified/011.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/DepthL/011.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/OcclusionL/011.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Rectified_calibration/011.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_2_011"
+    },
+    {
+      "object": "Experiment_2",
+      "frame_id": "012",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Left_rectified/012.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/DepthL/012.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/OcclusionL/012.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Rectified_calibration/012.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_2_012"
+    },
+    {
+      "object": "Experiment_2",
+      "frame_id": "013",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Left_rectified/013.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/DepthL/013.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/OcclusionL/013.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Rectified_calibration/013.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_2_013"
+    },
+    {
+      "object": "Experiment_2",
+      "frame_id": "014",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Left_rectified/014.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/DepthL/014.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/OcclusionL/014.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Rectified_calibration/014.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_2_014"
+    },
+    {
+      "object": "Experiment_2",
+      "frame_id": "015",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Left_rectified/015.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/DepthL/015.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/OcclusionL/015.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Rectified_calibration/015.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_2_015"
+    },
+    {
+      "object": "Experiment_2",
+      "frame_id": "016",
+      "rgb": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Left_rectified/016.png",
+      "depth": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/DepthL/016.png",
+      "occlusion": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Ground_truth_CT/OcclusionL/016.png",
+      "calibration": "datasets/external/SERV_CT_official/SERV-CT/Experiment_2/Rectified_calibration/016.json",
+      "cohort": "servct",
+      "id": "servct_Experiment_2_016"
+    },
+    {
+      "subject": 8,
+      "keyframe": "keyframe_0",
+      "id": "scared_dataset_8_keyframe_0",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_0/Left_Image.png",
+      "right": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_0/Right_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_0/left_depth_map.tiff",
+      "cal": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_0/endoscope_calibration.yaml",
+      "cohort": "scared",
+      "object": "8"
+    },
+    {
+      "subject": 8,
+      "keyframe": "keyframe_1",
+      "id": "scared_dataset_8_keyframe_1",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_1/Left_Image.png",
+      "right": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_1/Right_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_1/left_depth_map.tiff",
+      "cal": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_1/endoscope_calibration.yaml",
+      "cohort": "scared",
+      "object": "8"
+    },
+    {
+      "subject": 8,
+      "keyframe": "keyframe_2",
+      "id": "scared_dataset_8_keyframe_2",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_2/Left_Image.png",
+      "right": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_2/Right_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_2/left_depth_map.tiff",
+      "cal": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_2/endoscope_calibration.yaml",
+      "cohort": "scared",
+      "object": "8"
+    },
+    {
+      "subject": 8,
+      "keyframe": "keyframe_3",
+      "id": "scared_dataset_8_keyframe_3",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_3/Left_Image.png",
+      "right": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_3/Right_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_3/left_depth_map.tiff",
+      "cal": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_3/endoscope_calibration.yaml",
+      "cohort": "scared",
+      "object": "8"
+    },
+    {
+      "subject": 8,
+      "keyframe": "keyframe_4",
+      "id": "scared_dataset_8_keyframe_4",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_4/Left_Image.png",
+      "right": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_4/Right_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_4/left_depth_map.tiff",
+      "cal": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_8/keyframe_4/endoscope_calibration.yaml",
+      "cohort": "scared",
+      "object": "8"
+    },
+    {
+      "subject": 9,
+      "keyframe": "keyframe_0",
+      "id": "scared_dataset_9_keyframe_0",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_0/Left_Image.png",
+      "right": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_0/Right_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_0/left_depth_map.tiff",
+      "cal": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_0/endoscope_calibration.yaml",
+      "cohort": "scared",
+      "object": "9"
+    },
+    {
+      "subject": 9,
+      "keyframe": "keyframe_1",
+      "id": "scared_dataset_9_keyframe_1",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_1/Left_Image.png",
+      "right": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_1/Right_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_1/left_depth_map.tiff",
+      "cal": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_1/endoscope_calibration.yaml",
+      "cohort": "scared",
+      "object": "9"
+    },
+    {
+      "subject": 9,
+      "keyframe": "keyframe_2",
+      "id": "scared_dataset_9_keyframe_2",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_2/Left_Image.png",
+      "right": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_2/Right_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_2/left_depth_map.tiff",
+      "cal": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_2/endoscope_calibration.yaml",
+      "cohort": "scared",
+      "object": "9"
+    },
+    {
+      "subject": 9,
+      "keyframe": "keyframe_3",
+      "id": "scared_dataset_9_keyframe_3",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_3/Left_Image.png",
+      "right": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_3/Right_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_3/left_depth_map.tiff",
+      "cal": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_3/endoscope_calibration.yaml",
+      "cohort": "scared",
+      "object": "9"
+    },
+    {
+      "subject": 9,
+      "keyframe": "keyframe_4",
+      "id": "scared_dataset_9_keyframe_4",
+      "rgb": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_4/Left_Image.png",
+      "right": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_4/Right_Image.png",
+      "gt": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_4/left_depth_map.tiff",
+      "cal": "/ssd-1/temp/kimicode/multmodel/lesion_3d_measurement/datasets/external/SCARED_official/measured_keyframes/dataset_9/keyframe_4/endoscope_calibration.yaml",
+      "cohort": "scared",
+      "object": "9"
+    },
+    {
+      "cohort": "drends",
+      "object": "ExVivo_Colon",
+      "setup": "ExVivo",
+      "illumination": "Ext",
+      "sequence": "Seq00_Colon_Ext",
+      "id": "drends_ExVivo_Seq00_Colon_Ext",
+      "rgb": "datasets/external/DRENDS/firstframes/ExVivo_Seq00_Colon_Ext/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/ExVivo_Seq00_Colon_Ext/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/ExVivo_Seq00_Colon_Ext/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "ExVivo_Colon",
+      "setup": "ExVivo",
+      "illumination": "Med",
+      "sequence": "Seq01_Colon_Med",
+      "id": "drends_ExVivo_Seq01_Colon_Med",
+      "rgb": "datasets/external/DRENDS/firstframes/ExVivo_Seq01_Colon_Med/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/ExVivo_Seq01_Colon_Med/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/ExVivo_Seq01_Colon_Med/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "ExVivo_Colon",
+      "setup": "ExVivo",
+      "illumination": "High",
+      "sequence": "Seq02_Colon_High",
+      "id": "drends_ExVivo_Seq02_Colon_High",
+      "rgb": "datasets/external/DRENDS/firstframes/ExVivo_Seq02_Colon_High/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/ExVivo_Seq02_Colon_High/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/ExVivo_Seq02_Colon_High/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "ExVivo_Intestine",
+      "setup": "ExVivo",
+      "illumination": "Ext",
+      "sequence": "Seq03_Intestine_Ext",
+      "id": "drends_ExVivo_Seq03_Intestine_Ext",
+      "rgb": "datasets/external/DRENDS/firstframes/ExVivo_Seq03_Intestine_Ext/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/ExVivo_Seq03_Intestine_Ext/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/ExVivo_Seq03_Intestine_Ext/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "ExVivo_Intestine",
+      "setup": "ExVivo",
+      "illumination": "Med",
+      "sequence": "Seq04_Intestine_Med",
+      "id": "drends_ExVivo_Seq04_Intestine_Med",
+      "rgb": "datasets/external/DRENDS/firstframes/ExVivo_Seq04_Intestine_Med/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/ExVivo_Seq04_Intestine_Med/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/ExVivo_Seq04_Intestine_Med/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "ExVivo_Intestine",
+      "setup": "ExVivo",
+      "illumination": "High",
+      "sequence": "Seq05_Intestine_High",
+      "id": "drends_ExVivo_Seq05_Intestine_High",
+      "rgb": "datasets/external/DRENDS/firstframes/ExVivo_Seq05_Intestine_High/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/ExVivo_Seq05_Intestine_High/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/ExVivo_Seq05_Intestine_High/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "ExVivo_Stomach",
+      "setup": "ExVivo",
+      "illumination": "Ext",
+      "sequence": "Seq06_Stomach_Ext",
+      "id": "drends_ExVivo_Seq06_Stomach_Ext",
+      "rgb": "datasets/external/DRENDS/firstframes/ExVivo_Seq06_Stomach_Ext/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/ExVivo_Seq06_Stomach_Ext/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/ExVivo_Seq06_Stomach_Ext/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "ExVivo_Stomach",
+      "setup": "ExVivo",
+      "illumination": "Med",
+      "sequence": "Seq07_Stomach_Med",
+      "id": "drends_ExVivo_Seq07_Stomach_Med",
+      "rgb": "datasets/external/DRENDS/firstframes/ExVivo_Seq07_Stomach_Med/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/ExVivo_Seq07_Stomach_Med/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/ExVivo_Seq07_Stomach_Med/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "ExVivo_Stomach",
+      "setup": "ExVivo",
+      "illumination": "High",
+      "sequence": "Seq08_Stomach_High",
+      "id": "drends_ExVivo_Seq08_Stomach_High",
+      "rgb": "datasets/external/DRENDS/firstframes/ExVivo_Seq08_Stomach_High/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/ExVivo_Seq08_Stomach_High/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/ExVivo_Seq08_Stomach_High/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "ExVivo_Pancreas",
+      "setup": "ExVivo",
+      "illumination": "Ext",
+      "sequence": "Seq09_Pancreas_Ext",
+      "id": "drends_ExVivo_Seq09_Pancreas_Ext",
+      "rgb": "datasets/external/DRENDS/firstframes/ExVivo_Seq09_Pancreas_Ext/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/ExVivo_Seq09_Pancreas_Ext/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/ExVivo_Seq09_Pancreas_Ext/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "ExVivo_Pancreas",
+      "setup": "ExVivo",
+      "illumination": "Med",
+      "sequence": "Seq10_Pancreas_Med",
+      "id": "drends_ExVivo_Seq10_Pancreas_Med",
+      "rgb": "datasets/external/DRENDS/firstframes/ExVivo_Seq10_Pancreas_Med/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/ExVivo_Seq10_Pancreas_Med/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/ExVivo_Seq10_Pancreas_Med/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "ExVivo_Pancreas",
+      "setup": "ExVivo",
+      "illumination": "High",
+      "sequence": "Seq11_Pancreas_High",
+      "id": "drends_ExVivo_Seq11_Pancreas_High",
+      "rgb": "datasets/external/DRENDS/firstframes/ExVivo_Seq11_Pancreas_High/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/ExVivo_Seq11_Pancreas_High/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/ExVivo_Seq11_Pancreas_High/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Colon",
+      "setup": "Phantom",
+      "illumination": "Ext",
+      "sequence": "Seq00_Colon_Ext",
+      "id": "drends_Phantom_Seq00_Colon_Ext",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq00_Colon_Ext/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq00_Colon_Ext/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq00_Colon_Ext/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Colon",
+      "setup": "Phantom",
+      "illumination": "Med",
+      "sequence": "Seq01_Colon_Med",
+      "id": "drends_Phantom_Seq01_Colon_Med",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq01_Colon_Med/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq01_Colon_Med/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq01_Colon_Med/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Colon",
+      "setup": "Phantom",
+      "illumination": "High",
+      "sequence": "Seq02_Colon_High",
+      "id": "drends_Phantom_Seq02_Colon_High",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq02_Colon_High/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq02_Colon_High/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq02_Colon_High/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Intestine",
+      "setup": "Phantom",
+      "illumination": "Ext",
+      "sequence": "Seq03_Intestine_Ext",
+      "id": "drends_Phantom_Seq03_Intestine_Ext",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq03_Intestine_Ext/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq03_Intestine_Ext/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq03_Intestine_Ext/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Intestine",
+      "setup": "Phantom",
+      "illumination": "Med",
+      "sequence": "Seq04_Intestine_Med",
+      "id": "drends_Phantom_Seq04_Intestine_Med",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq04_Intestine_Med/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq04_Intestine_Med/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq04_Intestine_Med/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Intestine",
+      "setup": "Phantom",
+      "illumination": "High",
+      "sequence": "Seq05_Intestine_High",
+      "id": "drends_Phantom_Seq05_Intestine_High",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq05_Intestine_High/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq05_Intestine_High/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq05_Intestine_High/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Stomach",
+      "setup": "Phantom",
+      "illumination": "Ext",
+      "sequence": "Seq06_Stomach_Ext",
+      "id": "drends_Phantom_Seq06_Stomach_Ext",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq06_Stomach_Ext/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq06_Stomach_Ext/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq06_Stomach_Ext/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Stomach",
+      "setup": "Phantom",
+      "illumination": "Med",
+      "sequence": "Seq07_Stomach_Med",
+      "id": "drends_Phantom_Seq07_Stomach_Med",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq07_Stomach_Med/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq07_Stomach_Med/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq07_Stomach_Med/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Stomach",
+      "setup": "Phantom",
+      "illumination": "High",
+      "sequence": "Seq08_Stomach_High",
+      "id": "drends_Phantom_Seq08_Stomach_High",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq08_Stomach_High/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq08_Stomach_High/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq08_Stomach_High/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Liver",
+      "setup": "Phantom",
+      "illumination": "Ext",
+      "sequence": "Seq09_Liver_Ext",
+      "id": "drends_Phantom_Seq09_Liver_Ext",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq09_Liver_Ext/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq09_Liver_Ext/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq09_Liver_Ext/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Liver",
+      "setup": "Phantom",
+      "illumination": "Med",
+      "sequence": "Seq10_Liver_Med",
+      "id": "drends_Phantom_Seq10_Liver_Med",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq10_Liver_Med/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq10_Liver_Med/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq10_Liver_Med/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Liver",
+      "setup": "Phantom",
+      "illumination": "High",
+      "sequence": "Seq11_Liver_High",
+      "id": "drends_Phantom_Seq11_Liver_High",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq11_Liver_High/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq11_Liver_High/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq11_Liver_High/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Pancreas",
+      "setup": "Phantom",
+      "illumination": "Ext",
+      "sequence": "Seq12_Pancreas_Ext",
+      "id": "drends_Phantom_Seq12_Pancreas_Ext",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq12_Pancreas_Ext/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq12_Pancreas_Ext/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq12_Pancreas_Ext/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Pancreas",
+      "setup": "Phantom",
+      "illumination": "Med",
+      "sequence": "Seq13_Pancreas_Med",
+      "id": "drends_Phantom_Seq13_Pancreas_Med",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq13_Pancreas_Med/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq13_Pancreas_Med/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq13_Pancreas_Med/mask.png"
+    },
+    {
+      "cohort": "drends",
+      "object": "Phantom_Pancreas",
+      "setup": "Phantom",
+      "illumination": "High",
+      "sequence": "Seq14_Pancreas_High",
+      "id": "drends_Phantom_Seq14_Pancreas_High",
+      "rgb": "datasets/external/DRENDS/firstframes/Phantom_Seq14_Pancreas_High/rgb.png",
+      "gt": "datasets/external/DRENDS/firstframes/Phantom_Seq14_Pancreas_High/depth_mm.tiff",
+      "mask": "datasets/external/DRENDS/firstframes/Phantom_Seq14_Pancreas_High/mask.png"
+    }
+  ],
+  "neural_controls": {
+    "seeds": [
+      11,
+      23,
+      47
+    ],
+    "optimizer": "Unchanged parent AdamW1e-4 wd0.01; final checkpoint only; same generic frozen backbone and decoder initialization",
+    "source_half": "600 updates, batch1 source:600 source draws, same source exposure and updates as adapted but different batch size",
+    "target_only": "600 updates, batch2 target:1200 target draws, same update and batch budget as source-only and adapted",
+    "adapted_double": "1200 updates, batch2 (1 source+1 target):1200 source and1200 target draws; matches original source exposure but doubles updates",
+    "sampling": "Separate source and target RNGs seeded identically per seed; first600 source_half draws equal adapted_double source draws; original controls retain their original RNG. No exact historical sample-order match claimed."
+  },
+  "calibration": {
+    "backbones": [
+      "Generic DA V2 Small",
+      "Official EndoDAC+PCC checkpoint"
+    ],
+    "families": [
+      "affine_ls",
+      "radial_ls"
+    ],
+    "lambda": 0,
+    "source_only": 16384,
+    "source_target": {
+      "source": 8192,
+      "target": 8192
+    },
+    "sampling": "Deterministic equal group then frame allocations; same pixel indices across both backbones; standardization on calibration pixels only. Equal domain weights, approximately equal object weights within domains.",
+    "neural_comparison": "Same training images, not equal dense-label pixel budget, capacity or original pretraining compute.",
+    "pcc_test_exclusion": "SCARED8/9 omitted because public PCC training list includes all nine SCARED objects.",
+    "small_resolution": [
+      224,
+      280
+    ],
+    "pcc_resolution": [
+      256,
+      320
+    ],
+    "range_mm": [
+      1,
+      100
+    ],
+    "secondary_range_mm": [
+      1,
+      300
+    ],
+    "primary": "All valid native reference pixels; no per-test alignment, no clipping reference depths"
+  },
+  "controlled_factors": {
+    "models": "Existing source_only/adapted, all three seeds",
+    "factors": {
+      "identity": [
+        1.0,
+        0.0
+      ],
+      "dark": [
+        1.5,
+        0.0
+      ],
+      "blur": [
+        1.0,
+        1.5
+      ],
+      "dark_blur": [
+        1.5,
+        1.5
+      ]
+    },
+    "implementation": "Resize RGB to224x280 using official processor with normalization/rescaling disabled; then gamma and Gaussian sigma1.5 INPUT pixels; then official normalization without resizing. Includes DRENDS. Same GT/mask across interventions. New pipeline identity is used for paired contrasts.",
+    "physical_causality": false
+  },
+  "depth_strata_mm": [
+    0,
+    30,
+    60,
+    100,
+    200,
+    300
+  ],
+  "statistics": "Average frames within group, then groups, then seeds. Seed SD not population CI. Equal-bin mean uses only bins supported in all cohorts for a fixed method/bound; report retained counts; exploratory diagnostic, not primary ranking.",
+  "limitations": "No new physical donors/device serials or clinical sizing/ICC collected; no SOTA or physical causal claim."
+}

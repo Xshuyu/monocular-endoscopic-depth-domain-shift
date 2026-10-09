@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="835.2pt" viewBox="0 0 864 835.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-27T21:35:57.995336</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 835.2 
+L 864 835.2 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="development">
+    <path d="M 23.04 14.4 
+L 840.96 14.4 
+Q 849.6 14.4 849.6 23.04 
+L 849.6 264.96 
+Q 849.6 273.6 840.96 273.6 
+L 23.04 273.6 
+Q 14.4 273.6 14.4 264.96 
+L 14.4 23.04 
+Q 14.4 14.4 23.04 14.4 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #edf4fb; stroke: #245b85; stroke-linejoin: miter"/>
+   </g>
+   <g id="evaluation">
+    <path d="M 23.04 313.2 
+L 840.96 313.2 
+Q 849.6 313.2 849.6 321.84 
+L 849.6 606.96 
+Q 849.6 615.6 840.96 615.6 
+L 23.04 615.6 
+Q 14.4 615.6 14.4 606.96 
+L 14.4 321.84 
+Q 14.4 313.2 23.04 313.2 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #eef6f2; stroke: #22624d; stroke-linejoin: miter"/>
+   </g>
+   <g id="measurement">
+    <path d="M 23.04 648 
+L 840.96 648 
+Q 849.6 648 849.6 656.64 
+L 849.6 812.16 
+Q 849.6 820.8 840.96 820.8 
+L 23.04 820.8 
+Q 14.4 820.8 14.4 812.16 
+L 14.4 656.64 
+Q 14.4 648 23.04 648 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #faf5eb; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #8a612a; stroke-linejoin: miter"/>
+   </g>
+   <g id="dev_inputs">
+    <path d="M 34.56 64.8 
+L 253.44 64.8 
+Q 259.2 64.8 259.2 70.56 
+L 259.2 242.64 
+Q 259.2 248.4 253.44 248.4 
+L 34.56 248.4 
+Q 28.8 248.4 28.8 242.64 
+L 28.8 70.56 
+Q 28.8 64.8 34.56 64.8 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #ffffff; stroke: #245b85; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="calibration">
+    <path d="M 322.56 64.8 
+L 541.44 64.8 
+Q 547.2 64.8 547.2 70.56 
+L 547.2 242.64 
+Q 547.2 248.4 541.44 248.4 
+L 322.56 248.4 
+Q 316.8 248.4 316.8 242.64 
+L 316.8 70.56 
+Q 316.8 64.8 322.56 64.8 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #ffffff; stroke: #245b85; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="selection">
+    <path d="M 610.56 64.8 
+L 829.44 64.8 
+Q 835.2 64.8 835.2 70.56 
+L 835.2 242.64 
+Q 835.2 248.4 829.44 248.4 
+L 610.56 248.4 
+Q 604.8 248.4 604.8 242.64 
+L 604.8 70.56 
+Q 604.8 64.8 610.56 64.8 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #ffffff; stroke: #245b85; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="new_rgb">
+    <path d="M 34.56 360 
+L 253.44 360 
+Q 259.2 360 259.2 365.76 
+L 259.2 512.64 
+Q 259.2 518.4 253.44 518.4 
+L 34.56 518.4 
+Q 28.8 518.4 28.8 512.64 
+L 28.8 365.76 
+Q 28.8 360 34.56 360 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #ffffff; stroke: #22624d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="apply">
+    <path d="M 322.56 360 
+L 541.44 360 
+Q 547.2 360 547.2 365.76 
+L 547.2 512.64 
+Q 547.2 518.4 541.44 518.4 
+L 322.56 518.4 
+Q 316.8 518.4 316.8 512.64 
+L 316.8 365.76 
+Q 316.8 360 322.56 360 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #ffffff; stroke: #22624d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="score">
+    <path d="M 610.56 360 
+L 829.44 360 
+Q 835.2 360 835.2 365.76 
+L 835.2 512.64 
+Q 835.2 518.4 829.44 518.4 
+L 610.56 518.4 
+Q 604.8 518.4 604.8 512.64 
+L 604.8 365.76 
+Q 604.8 360 610.56 360 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #ffffff; stroke: #22624d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="reference">
+    <path d="M 610.56 558 
+L 829.44 558 
+Q 835.2 558 835.2 563.76 
+L 835.2 594 
+Q 835.2 599.76 829.44 599.76 
+L 610.56 599.76 
+Q 604.8 599.76 604.8 594 
+L 604.8 563.76 
+Q 604.8 558 610.56 558 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #ffffff; stroke: #22624d; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="camera_inputs">
+    <path d="M 34.56 694.8 
+L 253.44 694.8 
+Q 259.2 694.8 259.2 700.56 
+L 259.2 793.44 
+Q 259.2 799.2 253.44 799.2 
+L 34.56 799.2 
+Q 28.8 799.2 28.8 793.44 
+L 28.8 700.56 
+Q 28.8 694.8 34.56 694.8 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #ffffff; stroke: #8a612a; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="backproject">
+    <path d="M 322.56 694.8 
+L 541.44 694.8 
+Q 547.2 694.8 547.2 700.56 
+L 547.2 793.44 
+Q 547.2 799.2 541.44 799.2 
+L 322.56 799.2 
+Q 316.8 799.2 316.8 793.44 
+L 316.8 700.56 
+Q 316.8 694.8 322.56 694.8 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #ffffff; stroke: #8a612a; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="size">
+    <path d="M 610.56 694.8 
+L 829.44 694.8 
+Q 835.2 694.8 835.2 700.56 
+L 835.2 793.44 
+Q 835.2 799.2 829.44 799.2 
+L 610.56 799.2 
+Q 604.8 799.2 604.8 793.44 
+L 604.8 700.56 
+Q 604.8 694.8 610.56 694.8 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #ffffff; stroke: #8a612a; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="e1">
+    <path d="M 261.200391 154.8 
+Q 288.0008 154.8 312.900553 154.8 
+" clip-path="url(#p841c4c9a8c)" style="fill: none; stroke: #425666; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 307.700553 152.2 
+L 312.900553 154.8 
+L 307.700553 157.4 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #425666; stroke: #425666; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="e2">
+    <path d="M 549.200391 154.8 
+Q 576.0008 154.8 600.900553 154.8 
+" clip-path="url(#p841c4c9a8c)" style="fill: none; stroke: #425666; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 595.700553 152.2 
+L 600.900553 154.8 
+L 595.700553 157.4 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #425666; stroke: #425666; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="e3">
+    <path d="M 432 292.883906 
+Q 432 325.440373 432 356.096182 
+" clip-path="url(#p841c4c9a8c)" style="fill: none; stroke: #425666; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 434.6 350.896182 
+L 432 356.096182 
+L 429.4 350.896182 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #425666; stroke: #425666; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="e4">
+    <path d="M 261.200391 439.2 
+Q 288.0008 439.2 312.900553 439.2 
+" clip-path="url(#p841c4c9a8c)" style="fill: none; stroke: #425666; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 307.700553 436.6 
+L 312.900553 439.2 
+L 307.700553 441.8 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #425666; stroke: #425666; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="e5">
+    <path d="M 549.200391 439.2 
+Q 576.0008 439.2 600.900553 439.2 
+" clip-path="url(#p841c4c9a8c)" style="fill: none; stroke: #425666; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 595.700553 436.6 
+L 600.900553 439.2 
+L 595.700553 441.8 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #425666; stroke: #425666; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="e6">
+    <path d="M 720 556.003564 
+Q 720 538.200168 720 522.297429 
+" clip-path="url(#p841c4c9a8c)" style="fill: none; stroke: #425666; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 717.4 527.497429 
+L 720 522.297429 
+L 722.6 527.497429 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #425666; stroke: #425666; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="e7">
+    <path d="M 432 520.399896 
+Q 432 606.600692 432 690.90083 
+" clip-path="url(#p841c4c9a8c)" style="fill: none; stroke-dasharray: 6.29,2.72; stroke-dashoffset: 0; stroke: #8a612a; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 434.6 685.70083 
+L 432 690.90083 
+L 429.4 685.70083 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #8a612a; stroke-dasharray: 6.29,2.72; stroke-dashoffset: 0; stroke: #8a612a; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="e8">
+    <path d="M 261.200391 745.2 
+Q 288.0008 745.2 312.900553 745.2 
+" clip-path="url(#p841c4c9a8c)" style="fill: none; stroke-dasharray: 6.29,2.72; stroke-dashoffset: 0; stroke: #8a612a; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 307.700553 742.6 
+L 312.900553 745.2 
+L 307.700553 747.8 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #8a612a; stroke-dasharray: 6.29,2.72; stroke-dashoffset: 0; stroke: #8a612a; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="e9">
+    <path d="M 549.200391 745.2 
+Q 576.0008 745.2 600.900553 745.2 
+" clip-path="url(#p841c4c9a8c)" style="fill: none; stroke-dasharray: 6.29,2.72; stroke-dashoffset: 0; stroke: #8a612a; stroke-width: 1.7; stroke-linecap: round"/>
+    <path d="M 595.700553 742.6 
+L 600.900553 745.2 
+L 595.700553 747.8 
+z
+" clip-path="url(#p841c4c9a8c)" style="fill: #8a612a; stroke-dasharray: 6.29,2.72; stroke-dashoffset: 0; stroke: #8a612a; stroke-width: 1.7; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 720 248.4 
+L 720 290.88 
+" clip-path="url(#p841c4c9a8c)" style="fill: none; stroke: #425666; stroke-width: 1.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 720 290.88 
+L 432 290.88 
+" clip-path="url(#p841c4c9a8c)" style="fill: none; stroke: #425666; stroke-width: 1.7; stroke-linecap: square"/>
+   </g>
+   <g id="development_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #245b85" x="28.8" y="37.44" transform="rotate(-0 28.8 37.44)">A  DEVELOPMENT AND CALIBRATION</text>
+   </g>
+   <g id="evaluation_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #22624d" x="28.8" y="336.24" transform="rotate(-0 28.8 336.24)">B  FROZEN NEW-SEQUENCE EVALUATION</text>
+   </g>
+   <g id="measurement_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a612a" x="28.8" y="671.04" transform="rotate(-0 28.8 671.04)">C  OPTIONAL SIZE MEASUREMENT</text>
+   </g>
+   <g id="dev_inputs_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #245b85" x="144" y="88.077656" transform="rotate(-0 144 88.077656)">Development inputs</text>
+   </g>
+   <g id="dev_inputs_line0">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="114.587754" transform="rotate(-0 144 114.587754)">C3VDv2: 52 frames / 6 scenes</text>
+   </g>
+   <g id="dev_inputs_line1">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="134.747754" transform="rotate(-0 144 134.747754)">Frozen DA V2 Small → cached d</text>
+   </g>
+   <g id="dev_inputs_line2">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="154.907754" transform="rotate(-0 144 154.907754)">Reference axial depth Z</text>
+   </g>
+   <g id="dev_inputs_line3">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="175.067754" transform="rotate(-0 144 175.067754)">Native-grid radius r²</text>
+   </g>
+   <g id="dev_inputs_line4">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="195.227754" transform="rotate(-0 144 195.227754)">Valid reference-pixel mask</text>
+   </g>
+   <g id="calibration_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #245b85" x="432" y="88.077656" transform="rotate(-0 432 88.077656)">Four matched calibration heads</text>
+   </g>
+   <g id="calibration_line0">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="114.61291" transform="rotate(-0 432 114.61291)">Affine LS  |  Affine ridge</text>
+   </g>
+   <g id="calibration_line1">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="134.77291" transform="rotate(-0 432 134.77291)">Radial LS  |  Radial ridge</text>
+   </g>
+   <g id="calibration_line2">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="154.907754" transform="rotate(-0 432 154.907754)">16,384 pixels per fitted head</text>
+   </g>
+   <g id="calibration_line3">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="175.067754" transform="rotate(-0 432 175.067754)">Scene-balanced sampling</text>
+   </g>
+   <g id="calibration_line4">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="195.227754" transform="rotate(-0 432 195.227754)">Train-only feature scaling</text>
+   </g>
+   <g id="calibration_line5">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="215.387754" transform="rotate(-0 432 215.387754)">Fit inverse-depth squared loss</text>
+   </g>
+   <g id="selection_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #245b85" x="720" y="88.077656" transform="rotate(-0 720 88.077656)">Grouped selection and freeze</text>
+   </g>
+   <g id="selection_line0">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="114.587754" transform="rotate(-0 720 114.587754)">6 outer × 5 inner scene folds</text>
+   </g>
+   <g id="selection_line1">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="134.747754" transform="rotate(-0 720 134.747754)">Select ridge λ on development</text>
+   </g>
+   <g id="selection_line2">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="154.907754" transform="rotate(-0 720 154.907754)">Final λ: 6-fold development CV</text>
+   </g>
+   <g id="selection_line3">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="175.067754" transform="rotate(-0 720 175.067754)">Refit heads on development</text>
+   </g>
+   <g id="selection_line4">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="195.227754" transform="rotate(-0 720 195.227754)">Save coefficients and scaling</text>
+   </g>
+   <g id="selection_line5">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="215.387754" transform="rotate(-0 720 215.387754)">Freeze code + protocol hashes</text>
+   </g>
+   <g id="new_rgb_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #22624d" x="144" y="383.277656" transform="rotate(-0 144 383.277656)">New RGB → frozen backbone</text>
+   </g>
+   <g id="new_rgb_line0">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="409.787754" transform="rotate(-0 144 409.787754)">C3VD: 4 videos / 48 frames</text>
+   </g>
+   <g id="new_rgb_line1">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="429.947754" transform="rotate(-0 144 429.947754)">Acquired after head freezing</text>
+   </g>
+   <g id="new_rgb_line2">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="450.107754" transform="rotate(-0 144 450.107754)">Frozen DA V2 Small inference</text>
+   </g>
+   <g id="new_rgb_line3">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="470.267754" transform="rotate(-0 144 470.267754)">Resize d to native image grid</text>
+   </g>
+   <g id="new_rgb_line4">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="490.427754" transform="rotate(-0 144 490.427754)">No reference values in inference</text>
+   </g>
+   <g id="apply_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #22624d" x="432" y="383.277656" transform="rotate(-0 432 383.277656)">Apply frozen calibration</text>
+   </g>
+   <g id="apply_line0">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="409.657852" transform="rotate(-0 432 409.657852)">Image-center radius r²</text>
+   </g>
+   <g id="apply_line1">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="429.817852" transform="rotate(-0 432 429.817852)">q = (a0 + a1 r²)d + b0 + b1 r²</text>
+   </g>
+   <g id="apply_line2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="449.977852" transform="rotate(-0 432 449.977852)">Affine heads: a1 = b1 = 0</text>
+   </g>
+   <g id="apply_line3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="470.137852" transform="rotate(-0 432 470.137852)">q &gt; 0: Z = clip(1/q, 1, 100) mm</text>
+   </g>
+   <g id="apply_line4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="490.297422" transform="rotate(-0 432 490.297422)">q ≤ 0: Z = 100 mm</text>
+   </g>
+   <g id="score_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #22624d" x="720" y="383.277656" transform="rotate(-0 720 383.277656)">Video-level depth evaluation</text>
+   </g>
+   <g id="score_line0">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="409.787754" transform="rotate(-0 720 409.787754)">MAE / RMSE / AbsRel / δ1</text>
+   </g>
+   <g id="score_line1">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="429.947754" transform="rotate(-0 720 429.947754)">Equal-video aggregation</text>
+   </g>
+   <g id="score_line2">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="450.107754" transform="rotate(-0 720 450.107754)">Paired video diagnostics</text>
+   </g>
+   <g id="score_line3">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="470.267754" transform="rotate(-0 720 470.267754)">Radius × reference-depth bins</text>
+   </g>
+   <g id="score_line4">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="490.427754" transform="rotate(-0 720 490.427754)">No test-based refitting</text>
+   </g>
+   <g id="reference_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #22624d" x="720" y="581.277656" transform="rotate(-0 720 581.277656)">Test reference Z · scoring only</text>
+   </g>
+   <g id="camera_inputs_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a612a" x="144" y="718.077656" transform="rotate(-0 144 718.077656)">Additional required inputs</text>
+   </g>
+   <g id="camera_inputs_line0">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="744.587754" transform="rotate(-0 144 744.587754)">Lesion mask</text>
+   </g>
+   <g id="camera_inputs_line1">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="764.747754" transform="rotate(-0 144 764.747754)">Calibrated per-pixel camera rays</text>
+   </g>
+   <g id="camera_inputs_line2">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="144" y="784.907754" transform="rotate(-0 144 784.907754)">Same native pixel grid</text>
+   </g>
+   <g id="backproject_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a612a" x="432" y="718.077656" transform="rotate(-0 432 718.077656)">Axial-depth back-projection</text>
+   </g>
+   <g id="backproject_line0">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="744.587305" transform="rotate(-0 432 744.587305)">P = Z · ray / ray_z</text>
+   </g>
+   <g id="backproject_line1">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="764.747754" transform="rotate(-0 432 764.747754)">Radial MAD point filtering</text>
+   </g>
+   <g id="backproject_line2">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="432" y="784.907754" transform="rotate(-0 432 784.907754)">PCA 1st–99th percentile extent</text>
+   </g>
+   <g id="size_title">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a612a" x="720" y="718.077656" transform="rotate(-0 720 718.077656)">Research size output</text>
+   </g>
+   <g id="size_line0">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="744.587754" transform="rotate(-0 720 744.587754)">Not a clinical caliper diameter</text>
+   </g>
+   <g id="size_line1">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="764.747754" transform="rotate(-0 720 764.747754)">Analytical interface tests only</text>
+   </g>
+   <g id="size_line2">
+    <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243442" x="720" y="784.907754" transform="rotate(-0 720 784.907754)">Physical-size validation pending</text>
+   </g>
+   <g id="text_1">
+    <g id="patch_2">
+     <path d="M 534.050391 289.26 
+L 610.749609 289.26 
+L 610.749609 274.299141 
+L 534.050391 274.299141 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #425666" x="572.4" y="284.637422" transform="rotate(-0 572.4 284.637422)">Frozen heads</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #8a612a" x="439.2" y="629.257852" transform="rotate(-0 439.2 629.257852)">Predicted axial depth Z</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p841c4c9a8c">
+   <rect x="0" y="0" width="864" height="835.2"/>
+  </clipPath>
+ </defs>
+</svg>

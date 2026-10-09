@@ -1,0 +1,14 @@
+{
+  "python": "/ssd-1/temp/kimicode/multmodel/venv-gpu/bin/python",
+  "version": "3.11.16 | packaged by conda-forge | (main, Aug 21 2026, 22:44:51) [GCC 14.4.0]",
+  "packages": {
+    "torch": "2.5.1+cu124",
+    "transformers": "5.16.1",
+    "numpy": "2.4.6",
+    "opencv-python": "5.0.0.93",
+    "Pillow": "12.3.0",
+    "tifffile": "2026.3.3",
+    "matplotlib": "3.11.1"
+  },
+  "gpu": "NVIDIA GeForce RTX 4090 D"
+}

@@ -1,0 +1,69 @@
+file_path,short_title,description
+README.txt,Supplementary package overview and exclusions,"Defines S1 as the separately supplied PDF; describes the S2 protocol/logs, S3 result records, S4 figures, and excluded raw media/data/weights."
+S2_protocol_environment/calibration_fit.log,Execution log: calibration fit,"Console record of the corresponding frozen inference, fitting, training, or scoring stage."
+S2_protocol_environment/calibration_inference.log,Execution log: calibration inference,"Console record of the corresponding frozen inference, fitting, training, or scoring stage."
+S2_protocol_environment/control_inference.log,Execution log: control inference,"Console record of the corresponding frozen inference, fitting, training, or scoring stage."
+S2_protocol_environment/depth_matched_protocol.json,Frozen protocol: depth matched protocol,"Prespecified experiment settings, splits, sampling and evaluation rules."
+S2_protocol_environment/environment.json,Software and hardware environment,Recorded package versions and accelerator used for the experiments.
+S2_protocol_environment/extension_protocol.json,Frozen protocol: extension protocol,"Prespecified experiment settings, splits, sampling and evaluation rules."
+S2_protocol_environment/factor_inference.log,Execution log: factor inference,"Console record of the corresponding frozen inference, fitting, training, or scoring stage."
+S2_protocol_environment/protocol.json,Frozen protocol: protocol,"Prespecified experiment settings, splits, sampling and evaluation rules."
+S2_protocol_environment/selftrain_protocol.json,Frozen protocol: selftrain protocol,"Prespecified experiment settings, splits, sampling and evaluation rules."
+S2_protocol_environment/selftrain_training_complete.json,Checkpoint inventory and hashes: selftrain training complete,Checkpoint names and cryptographic hashes only; weights are not included.
+S2_protocol_environment/selftrain_validation_checks.json,Integrity checks: selftrain validation checks,"Post-run data, checkpoint and scoring validation summary."
+S2_protocol_environment/training.log,Execution log: training,"Console record of the corresponding frozen inference, fitting, training, or scoring stage."
+S2_protocol_environment/training_complete.json,Checkpoint inventory and hashes: training complete,Checkpoint names and cryptographic hashes only; weights are not included.
+S2_protocol_environment/training_logs/parent/adapted_11_log.json,Training curve and sampled-draw log: adapted 11,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/parent/adapted_23_log.json,Training curve and sampled-draw log: adapted 23,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/parent/adapted_47_log.json,Training curve and sampled-draw log: adapted 47,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/parent/source_only_11_log.json,Training curve and sampled-draw log: source only 11,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/parent/source_only_23_log.json,Training curve and sampled-draw log: source only 23,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/parent/source_only_47_log.json,Training curve and sampled-draw log: source only 47,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/revision/adapted_double_11_log.json,Training curve and sampled-draw log: adapted double 11,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/revision/adapted_double_23_log.json,Training curve and sampled-draw log: adapted double 23,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/revision/adapted_double_47_log.json,Training curve and sampled-draw log: adapted double 47,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/revision/source_half_11_log.json,Training curve and sampled-draw log: source half 11,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/revision/source_half_23_log.json,Training curve and sampled-draw log: source half 23,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/revision/source_half_47_log.json,Training curve and sampled-draw log: source half 47,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/revision/target_only_11_log.json,Training curve and sampled-draw log: target only 11,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/revision/target_only_23_log.json,Training curve and sampled-draw log: target only 23,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/revision/target_only_47_log.json,Training curve and sampled-draw log: target only 47,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/selftrain/self_train_11_log.json,Training curve and sampled-draw log: self train 11,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/selftrain/self_train_23_log.json,Training curve and sampled-draw log: self train 23,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/selftrain/self_train_47_log.json,Training curve and sampled-draw log: self train 47,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/selftrain/self_train_ft_11_log.json,Training curve and sampled-draw log: self train ft 11,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/selftrain/self_train_ft_23_log.json,Training curve and sampled-draw log: self train ft 23,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/training_logs/selftrain/self_train_ft_47_log.json,Training curve and sampled-draw log: self train ft 47,Per-seed learning curve and sampled image indices; contains no model weights.
+S2_protocol_environment/validation_checks.json,Integrity checks: validation checks,"Post-run data, checkpoint and scoring validation summary."
+S3_results/combined_calibration_per_frame.csv,Per-Frame: combined calibration per frame,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/combined_calibration_per_object.json,Per-Object: combined calibration per object,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/combined_calibration_summary.json,Aggregate/Effect Summary: combined calibration summary,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/comparison_per_frame.csv,Per-Frame: comparison per frame,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/comparison_per_object.json,Per-Object: comparison per object,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/comparison_summary.json,Aggregate/Effect Summary: comparison summary,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/depth_matched_effects.json,Aggregate/Effect Summary: depth matched effects,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/depth_matched_per_frame.csv,Per-Frame: depth matched per frame,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/depth_matched_per_object.json,Per-Object: depth matched per object,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/depth_matched_summary.json,Aggregate/Effect Summary: depth matched summary,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/depth_strata_per_frame.csv,Per-Frame: depth strata per frame,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/depth_strata_per_object.json,Per-Object: depth strata per object,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/depth_strata_summary.json,Aggregate/Effect Summary: depth strata summary,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/input_factor_effects.json,Aggregate/Effect Summary: input factor effects,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/input_factors_per_frame.csv,Per-Frame: input factors per frame,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/input_factors_per_object.json,Per-Object: input factors per object,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/input_factors_summary.json,Aggregate/Effect Summary: input factors summary,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/selftrain_per_frame.csv,Per-Frame: selftrain per frame,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/selftrain_per_object.json,Per-Object: selftrain per object,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/selftrain_summary.json,Aggregate/Effect Summary: selftrain summary,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/strong_blur_effects.json,Aggregate/Effect Summary: strong blur effects,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/strong_blur_factors_per_frame.csv,Per-Frame: strong blur factors per frame,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/strong_blur_factors_per_object.json,Per-Object: strong blur factors per object,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S3_results/strong_blur_factors_summary.json,Aggregate/Effect Summary: strong blur factors summary,Frozen machine-readable evaluation results; definitions and aggregation are described in the manuscript and protocol.
+S4_figures/Figure_1.pdf,Publication figure 1,Publication visual derived from the frozen experiment outputs.
+S4_figures/Figure_2.pdf,Publication figure 2,Publication visual derived from the frozen experiment outputs.
+S4_figures/Figure_3.pdf,Publication figure 3,Publication visual derived from the frozen experiment outputs.
+S4_figures/Figure_4.pdf,Publication figure 4,Publication visual derived from the frozen experiment outputs.
+S4_figures/Figure_5.pdf,Publication figure 5,Publication visual derived from the frozen experiment outputs.
+S4_figures/Figure_6.pdf,Publication figure 6,Publication visual derived from the frozen experiment outputs.
+S4_figures/radial_architecture.svg,Editable vector source: workflow architecture,Publication visual derived from the frozen experiment outputs.
+S4_figures/scared_subject_results.svg,Editable vector source: SCARED subject results,Publication visual derived from the frozen experiment outputs.

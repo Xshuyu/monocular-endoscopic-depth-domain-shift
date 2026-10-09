@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-10-07T12:06:40.599307+00:00",
+  "parent_protocol_sha256": "f2b91dc3a6e79bdb1dac0a4ed20fab45466bf95cb387f0719f5a8573eb664843",
+  "extension_protocol_sha256": "326d8a7096ec32106f12004e78350b99b0dc36aa396e8259049e2ae84276d350",
+  "purpose": "Depth-matched factorial failure analysis. All darkening/blur contrasts are computed inside fixed reference-depth bins so that every compared condition has identical pixels and identical reference-depth support. This removes the depth-distribution mismatch present in pooled cohort-level effects. No new physical data collected.",
+  "depth_bins_mm": [
+    0,
+    30,
+    60,
+    100,
+    200,
+    300
+  ],
+  "prediction_clip_mm": [
+    1,
+    100
+  ],
+  "models": [
+    "source_only",
+    "adapted"
+  ],
+  "seeds": [
+    11,
+    23,
+    47
+  ],
+  "factors": [
+    "identity",
+    "dark",
+    "strong_blur",
+    "dark_strong_blur"
+  ],
+  "blur_definition": "strong_blur: Gaussian sigma=5.0 model-input pixels after resize to 224x280 (see extension_protocol.json)",
+  "aggregation": "Mean per frame within bin, then equal weight per object group, then equal weight over groups; seed effects averaged with sample SD. Frames without bin support excluded.",
+  "interpretation": "Within-bin contrasts are pixel-paired across conditions. Cross-cohort comparison is meaningful only within the same bin and remains descriptive, not a causal identification.",
+  "selection": "All frames, models, seeds and factors scored; no test-performance-based selection."
+}

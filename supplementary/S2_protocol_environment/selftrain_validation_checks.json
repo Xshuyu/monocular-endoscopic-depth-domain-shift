@@ -1,0 +1,48 @@
+{
+  "protocol_hashes_verified": true,
+  "six_checkpoints_verified": true,
+  "pseudo_label_hashes_verified": true,
+  "training_draw_counts_verified": true,
+  "summaries_reaggregated": true,
+  "per_frame_rows": 1212,
+  "training_counts": [
+    {
+      "checkpoint": "self_train_47.pt",
+      "source_draws": 600,
+      "target_draws": 600,
+      "steps": 600
+    },
+    {
+      "checkpoint": "self_train_11.pt",
+      "source_draws": 600,
+      "target_draws": 600,
+      "steps": 600
+    },
+    {
+      "checkpoint": "self_train_ft_23.pt",
+      "source_draws": 600,
+      "target_draws": 600,
+      "steps": 600
+    },
+    {
+      "checkpoint": "self_train_23.pt",
+      "source_draws": 600,
+      "target_draws": 600,
+      "steps": 600
+    },
+    {
+      "checkpoint": "self_train_ft_47.pt",
+      "source_draws": 600,
+      "target_draws": 600,
+      "steps": 600
+    },
+    {
+      "checkpoint": "self_train_ft_11.pt",
+      "source_draws": 600,
+      "target_draws": 600,
+      "steps": 600
+    }
+  ],
+  "no_reference_used_for_pseudo_labels": true,
+  "no_test_performance_selection": true
+}

@@ -1,0 +1,77 @@
+{
+  "protocol_hashes_verified": true,
+  "nine_new_and_six_old_checkpoints_verified": true,
+  "training_rgb_gt_and_test_rgb_hashes_verified": true,
+  "calibration_budget_verified": true,
+  "pcc_scared_test_excluded": true,
+  "all_summaries_reaggregated": true,
+  "independent_native_metric_checks": 222,
+  "identity_max_prediction_difference_mm": 0.0,
+  "training_counts": [
+    {
+      "checkpoint": "target_only_11.pt",
+      "source_draws": 0,
+      "target_draws": 1200,
+      "steps": 600,
+      "seconds": 9.29981919657439
+    },
+    {
+      "checkpoint": "source_half_47.pt",
+      "source_draws": 600,
+      "target_draws": 0,
+      "steps": 600,
+      "seconds": 6.595874312333763
+    },
+    {
+      "checkpoint": "source_half_11.pt",
+      "source_draws": 600,
+      "target_draws": 0,
+      "steps": 600,
+      "seconds": 7.210201635956764
+    },
+    {
+      "checkpoint": "adapted_double_11.pt",
+      "source_draws": 1200,
+      "target_draws": 1200,
+      "steps": 1200,
+      "seconds": 18.431574331596494
+    },
+    {
+      "checkpoint": "target_only_23.pt",
+      "source_draws": 0,
+      "target_draws": 1200,
+      "steps": 600,
+      "seconds": 9.139129154384136
+    },
+    {
+      "checkpoint": "adapted_double_23.pt",
+      "source_draws": 1200,
+      "target_draws": 1200,
+      "steps": 1200,
+      "seconds": 18.181462600827217
+    },
+    {
+      "checkpoint": "adapted_double_47.pt",
+      "source_draws": 1200,
+      "target_draws": 1200,
+      "steps": 1200,
+      "seconds": 18.90843726694584
+    },
+    {
+      "checkpoint": "target_only_47.pt",
+      "source_draws": 0,
+      "target_draws": 1200,
+      "steps": 600,
+      "seconds": 9.080681373365223
+    },
+    {
+      "checkpoint": "source_half_23.pt",
+      "source_draws": 600,
+      "target_draws": 0,
+      "steps": 600,
+      "seconds": 7.136415776796639
+    }
+  ],
+  "new_independent_donors_or_device_serials_verified": false,
+  "clinical_size_or_observer_agreement_validated": false
+}
